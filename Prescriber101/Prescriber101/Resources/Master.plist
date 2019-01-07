@@ -96,5 +96,48 @@
 		<key>Key Terms</key>
 		<array/>
 	</dict>
+	<dict>
+		<key>Indication</key>
+		<string>Diabetes</string>
+		<key>Generic</key>
+		<string>Linagliptin</string>
+		<key>Brand</key>
+		<string>Trajenta</string>
+		<key>Dose Route Schedule</key>
+		<array>
+			<string>5 mg PO OD</string>
+		</array>
+		<key>Adjustment</key>
+		<array/>
+		<key>Contraindication</key>
+		<array>
+			<string>Hypersensitivity</string>
+			<string>Diabetes mellitus, type 1</string>
+			<string>Diabetic ketoacidosis</string>
+		</array>
+		<key>Notes</key>
+		<array>
+			<string>No adjustment for renal function or age.</string>
+			<string>Use with caution in patients with severe hepatic insufficiency or on dialysis.</string>
+		</array>
+		<key>Guideline Source</key>
+		<dict>
+			<key>Type</key>
+			<string>Diabetes</string>
+			<key>Source</key>
+			<string>http://guidelines.diabetes.ca/fullguidelines</string>
+		</dict>
+		<key>Supporting Trial</key>
+		<dict>
+			<key>Text</key>
+			<string>NCT00622284</string>
+			<key>Source</key>
+			<string>https://clinicaltrials.gov/ct2/show/NCT00622284</string>
+		</dict>
+		<key>Landmark Papers</key>
+		<array/>
+		<key>Key Terms</key>
+		<array/>
+	</dict>
 </array>
 </plist>
