@@ -30,32 +30,33 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drug Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xVb-sv-ERa" userLabel="drugNameCell">
-                                            <rect key="frame" x="10" y="0.0" width="365" height="50"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drug Name (Brand Name)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xVb-sv-ERa" userLabel="drugNameCell">
+                                            <rect key="frame" x="30" y="10" width="345" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="41A-mq-1Ko"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Source: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ak4-Sz-laY" userLabel="guidelineSourceCell">
-                                            <rect key="frame" x="10" y="50" width="365" height="29.5"/>
+                                            <rect key="frame" x="30" y="50" width="345" height="30"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="30" id="yNL-9e-7nA"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
                                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="bottom" secondItem="ak4-Sz-laY" secondAttribute="bottom" id="BTx-WV-4KB"/>
-                                        <constraint firstItem="xVb-sv-ERa" firstAttribute="top" secondItem="qbr-XN-anX" secondAttribute="top" id="CSg-eL-wbg"/>
-                                        <constraint firstAttribute="trailing" secondItem="ak4-Sz-laY" secondAttribute="trailing" id="K2P-SA-Loh"/>
-                                        <constraint firstItem="xVb-sv-ERa" firstAttribute="leading" secondItem="qbr-XN-anX" secondAttribute="leading" constant="10" id="Oai-kf-QMz"/>
-                                        <constraint firstItem="ak4-Sz-laY" firstAttribute="leading" secondItem="qbr-XN-anX" secondAttribute="leading" constant="10" id="Y7j-2Q-CGd"/>
-                                        <constraint firstAttribute="trailing" secondItem="xVb-sv-ERa" secondAttribute="trailing" id="Zc3-bj-PiD"/>
-                                        <constraint firstAttribute="trailing" secondItem="xVb-sv-ERa" secondAttribute="trailing" id="dQd-tD-Iag"/>
-                                        <constraint firstItem="ak4-Sz-laY" firstAttribute="top" secondItem="qbr-XN-anX" secondAttribute="top" constant="50" id="duZ-NK-5u4"/>
-                                        <constraint firstItem="xVb-sv-ERa" firstAttribute="top" secondItem="qbr-XN-anX" secondAttribute="top" id="gCf-yJ-Sc6"/>
-                                        <constraint firstAttribute="bottom" secondItem="xVb-sv-ERa" secondAttribute="bottom" constant="29.5" id="ubP-zf-4Ee"/>
-                                        <constraint firstItem="ak4-Sz-laY" firstAttribute="top" secondItem="xVb-sv-ERa" secondAttribute="bottom" id="yDZ-24-rAG"/>
-                                        <constraint firstItem="xVb-sv-ERa" firstAttribute="leading" secondItem="qbr-XN-anX" secondAttribute="leading" constant="10" id="zvA-dJ-1aB"/>
+                                        <constraint firstItem="xVb-sv-ERa" firstAttribute="top" secondItem="qbr-XN-anX" secondAttribute="topMargin" constant="-1" id="6xn-Vj-TKp"/>
+                                        <constraint firstItem="ak4-Sz-laY" firstAttribute="trailing" secondItem="xVb-sv-ERa" secondAttribute="trailing" id="8SK-Df-DJZ"/>
+                                        <constraint firstAttribute="trailing" secondItem="ak4-Sz-laY" secondAttribute="trailing" id="JiT-cV-OrZ"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="ak4-Sz-laY" secondAttribute="bottom" constant="-11" id="Lbj-49-jZy"/>
+                                        <constraint firstItem="ak4-Sz-laY" firstAttribute="top" secondItem="xVb-sv-ERa" secondAttribute="bottom" id="axP-RM-2Wm"/>
+                                        <constraint firstItem="ak4-Sz-laY" firstAttribute="leading" secondItem="xVb-sv-ERa" secondAttribute="leading" id="cJe-cK-HXi"/>
+                                        <constraint firstItem="ak4-Sz-laY" firstAttribute="leading" secondItem="qbr-XN-anX" secondAttribute="leadingMargin" constant="14" id="xwc-g6-APn"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>

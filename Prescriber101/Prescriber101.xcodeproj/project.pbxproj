@@ -66,6 +66,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC11145221E326E200B3F4E9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCDDADC021D2E453002222D6 /* ViewController.swift */,
+				CCDDADE721D592B1002222D6 /* DrugTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CC11145321E3270000B3F4E9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CCDDADE521D57D8D002222D6 /* Drug.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CC11145421E3271200B3F4E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CCDDADE321D2EB50002222D6 /* Master.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		CCDDADB221D2E453002222D6 = {
 			isa = PBXGroup;
 			children = (
@@ -87,16 +112,15 @@
 		CCDDADBD21D2E453002222D6 /* Prescriber101 */ = {
 			isa = PBXGroup;
 			children = (
+				CC11145321E3270000B3F4E9 /* Classes */,
+				CC11145221E326E200B3F4E9 /* ViewControllers */,
 				CCDDADBE21D2E453002222D6 /* AppDelegate.swift */,
-				CCDDADC021D2E453002222D6 /* ViewController.swift */,
 				CCDDADC221D2E453002222D6 /* Main.storyboard */,
+				CC11145421E3271200B3F4E9 /* Resources */,
 				CCDDADC821D2E454002222D6 /* Assets.xcassets */,
 				CCDDADCA21D2E454002222D6 /* LaunchScreen.storyboard */,
 				CCDDADCD21D2E454002222D6 /* Info.plist */,
 				CCDDADC521D2E453002222D6 /* Prescriber101.xcdatamodeld */,
-				CCDDADE321D2EB50002222D6 /* Master.plist */,
-				CCDDADE521D57D8D002222D6 /* Drug.swift */,
-				CCDDADE721D592B1002222D6 /* DrugTableViewController.swift */,
 				CCDDADE921D592C2002222D6 /* DrugTableViewCell.swift */,
 			);
 			path = Prescriber101;
