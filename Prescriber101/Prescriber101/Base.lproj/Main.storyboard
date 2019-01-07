@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="H2n-ZG-oYx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Drug Table View Controller-->
+        <scene sceneID="sz9-pM-B3h">
+            <objects>
+                <tableViewController id="H2n-ZG-oYx" customClass="DrugTableViewController" customModule="Prescriber101" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="EG0-1S-bVF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" id="FTg-YY-0Lb">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DrugTableViewCell" rowHeight="80" id="Ec6-bl-I7u" customClass="DrugTableViewCell" customModule="Prescriber101" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="84" width="375" height="80"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ec6-bl-I7u" id="qbr-XN-anX">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drug Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xVb-sv-ERa" userLabel="drugNameCell">
+                                            <rect key="frame" x="10" y="0.0" width="365" height="50"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Source: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ak4-Sz-laY" userLabel="guidelineSourceCell">
+                                            <rect key="frame" x="10" y="50" width="365" height="29.5"/>
+                                            <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="ak4-Sz-laY" secondAttribute="bottom" id="BTx-WV-4KB"/>
+                                        <constraint firstItem="xVb-sv-ERa" firstAttribute="top" secondItem="qbr-XN-anX" secondAttribute="top" id="CSg-eL-wbg"/>
+                                        <constraint firstAttribute="trailing" secondItem="ak4-Sz-laY" secondAttribute="trailing" id="K2P-SA-Loh"/>
+                                        <constraint firstItem="xVb-sv-ERa" firstAttribute="leading" secondItem="qbr-XN-anX" secondAttribute="leading" constant="10" id="Oai-kf-QMz"/>
+                                        <constraint firstItem="ak4-Sz-laY" firstAttribute="leading" secondItem="qbr-XN-anX" secondAttribute="leading" constant="10" id="Y7j-2Q-CGd"/>
+                                        <constraint firstAttribute="trailing" secondItem="xVb-sv-ERa" secondAttribute="trailing" id="Zc3-bj-PiD"/>
+                                        <constraint firstAttribute="trailing" secondItem="xVb-sv-ERa" secondAttribute="trailing" id="dQd-tD-Iag"/>
+                                        <constraint firstItem="ak4-Sz-laY" firstAttribute="top" secondItem="qbr-XN-anX" secondAttribute="top" constant="50" id="duZ-NK-5u4"/>
+                                        <constraint firstItem="xVb-sv-ERa" firstAttribute="top" secondItem="qbr-XN-anX" secondAttribute="top" id="gCf-yJ-Sc6"/>
+                                        <constraint firstAttribute="bottom" secondItem="xVb-sv-ERa" secondAttribute="bottom" constant="29.5" id="ubP-zf-4Ee"/>
+                                        <constraint firstItem="ak4-Sz-laY" firstAttribute="top" secondItem="xVb-sv-ERa" secondAttribute="bottom" id="yDZ-24-rAG"/>
+                                        <constraint firstItem="xVb-sv-ERa" firstAttribute="leading" secondItem="qbr-XN-anX" secondAttribute="leading" constant="10" id="zvA-dJ-1aB"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="drugNameLabel" destination="xVb-sv-ERa" id="z30-cj-Xei"/>
+                                    <outlet property="guidelineSourceLabel" destination="ak4-Sz-laY" id="fLR-gJ-H0V"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="H2n-ZG-oYx" id="AiM-iE-ObW"/>
+                            <outlet property="delegate" destination="H2n-ZG-oYx" id="osd-V9-wiO"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z9w-5X-tWZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1378" y="-14"/>
+        </scene>
+    </scenes>
+</document>

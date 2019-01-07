@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Indication</key>
+		<string>Diabetes</string>
+		<key>Generic</key>
+		<string>Metformin</string>
+		<key>Brand</key>
+		<string>Glucophage</string>
+		<key>Dose Route Schedule</key>
+		<array>
+			<string>250 mg PO BID (initial dose)</string>
+			<string>2500 mg PO daily in divided doses (maximum)</string>
+		</array>
+		<key>Adjustment</key>
+		<array>
+			<string>eGFR &lt; 45 mL/min: Consider stopping or decreasing dose by 50%. Monitor eGFR every 3 months.</string>
+		</array>
+		<key>Contraindication</key>
+		<array>
+			<string>Heart failure with reduced ejection fraction</string>
+			<string>eGFR &lt; 30 mL/min</string>
+			<string>Hepatic failure</string>
+		</array>
+		<key>Notes</key>
+		<array>
+			<string>Monitor eGFR annually.</string>
+		</array>
+		<key>Guideline Source</key>
+		<dict>
+			<key>Type</key>
+			<string>Diabetes</string>
+			<key>Source</key>
+			<string>http://guidelines.diabetes.ca/fullguidelines</string>
+		</dict>
+		<key>Supporting Trial</key>
+		<dict>
+			<key>Text</key>
+			<string>NCT00457002 (ADOPT)</string>
+			<key>Source</key>
+			<string>https://clinicaltrials.gov/ct2/show/NCT00457002</string>
+		</dict>
+		<key>Landmark Papers</key>
+		<array>
+			<dict>
+				<key>Text</key>
+				<string>New England Journal of Medicine 2006; 355:2427–43</string>
+				<key>Source</key>
+				<string>http://www.nejm.org/doi/full/10.1056/NEJMoa066224</string>
+			</dict>
+		</array>
+		<key>Key Terms</key>
+		<array/>
+	</dict>
+</array>
+</plist>
