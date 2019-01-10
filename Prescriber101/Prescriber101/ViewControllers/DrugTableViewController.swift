@@ -10,8 +10,8 @@ import UIKit
 
 class DrugTableViewController: UITableViewController {
     
+    @IBOutlet weak var searchBar: UISearchBar!
     var drugs = [Drug]()
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
