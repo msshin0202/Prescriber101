@@ -10,12 +10,22 @@ import UIKit
 
 class DrugTableViewController: UITableViewController {
     
-    @IBOutlet weak var searchBar: UISearchBar!
+    let searchController = UISearchController(searchResultsController: nil)
+
     var drugs = [Drug]()
+    var filteredDrugs = [Drug]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Load master drug plist here
+        setCustomization()
+        loadPlist()
+        setUpSearchBar()
+    }
+    
+    // MARK: - Private instance methods
+    
+    private func loadPlist() {
+        
         guard let plist = Bundle.main.path(forResource: "Master", ofType: "plist") else {
             fatalError("error loading plist")
         }
@@ -28,10 +38,33 @@ class DrugTableViewController: UITableViewController {
             }
             drugs.append(extractDrugInfo(for: drug))
         }
-        print("count: \(drugs.count)\n")
-        for drug in drugs {
-            print(drug.generic)
-        }
+    }
+    
+    private func setCustomization() {
+        self.title = "Prescriber 101"
+        self.navigationController?.navigationBar.barTintColor = UIColor(red: 0.15, green: 0.09, blue: 0.78, alpha: 1.0)
+        self.navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
+        self.navigationController?.navigationBar.tintColor = UIColor.white
+    }
+    
+    private func setUpSearchBar() {
+        searchController.searchResultsUpdater = self
+        searchController.obscuresBackgroundDuringPresentation = false
+        searchController.searchBar.placeholder = "Search by drug name or indication"
+        navigationItem.searchController = searchController
+        definesPresentationContext = true
+    }
+    
+    private func searchBarIsEmpty() -> Bool {
+        // Returns true if the text is empty or nil
+        return searchController.searchBar.text?.isEmpty ?? true
+    }
+    
+    private func filterContentForSearchText(_ searchText: String, scope: String = "All") {
+        filteredDrugs = drugs.filter({( drug : Drug) -> Bool in
+            return drug.generic.lowercased().contains(searchText.lowercased()) || drug.brand.lowercased().contains(searchText.lowercased())
+        })
+        tableView.reloadData()
     }
     
     private func extractDrugInfo(for drug: Dictionary<String, Any>) -> Drug {
@@ -42,8 +75,8 @@ class DrugTableViewController: UITableViewController {
         var adjustment = [String]()
         var contraindication = [String]()
         var notes = [String]()
-        var guideline = Dictionary<String, String>()
-        var supportingTrial = Dictionary<String, String>()
+        var guidelines = [Dictionary<String, String>]()
+        var supportingTrials = [Dictionary<String, String>]()
         var landmarkPapers = [Dictionary<String, String>]()
         var keyTerms = [String]()
         
@@ -84,16 +117,16 @@ class DrugTableViewController: UITableViewController {
                     fatalError("Notes information in plist in unexpected format")
                 }
                 notes = notesInfo
-            case "Guideline Source":
-                guard let guidelineInfo = drug["Guideline Source"] as? Dictionary<String,String> else {
+            case "Guidelines":
+                guard let guidelineInfo = drug["Guidelines"] as? [Dictionary<String,String>] else {
                     fatalError("Guideline source information in plist in unexpected format")
                 }
-                guideline = guidelineInfo
-            case "Supporting Trial":
-                guard let supportingTrialsInfo = drug["Supporting Trial"] as? Dictionary<String,String> else {
+                guidelines = guidelineInfo
+            case "Supporting Trials":
+                guard let supportingTrialsInfo = drug["Supporting Trials"] as? [Dictionary<String,String>] else {
                     fatalError("Guideline information in plist in unexpected format")
                 }
-                supportingTrial = supportingTrialsInfo
+                supportingTrials = supportingTrialsInfo
             case "Landmark Papers":
                 guard let landmarkPapersInfo = drug["Landmark Papers"] as? [Dictionary<String, String>] else {
                     fatalError("Landmark Papers information in plist in unexpected format")
@@ -108,7 +141,7 @@ class DrugTableViewController: UITableViewController {
                 fatalError("unexpected information from plist: \(information)")
             }
         }
-        let newDrug = Drug(indication: indication, generic: generic, brand: brand, doseRouteSchedule: doseRouteSchedule, adjustment: adjustment, contraindication: contraindication, notes: notes, guideline: guideline, supportingTrial: supportingTrial, landmarkPapers: landmarkPapers, keyTerms: keyTerms)
+        let newDrug = Drug(indication: indication, generic: generic, brand: brand, doseRouteSchedule: doseRouteSchedule, adjustment: adjustment, contraindication: contraindication, notes: notes, guidelines: guidelines, supportingTrials: supportingTrials, landmarkPapers: landmarkPapers, keyTerms: keyTerms)
         return newDrug
         
     }
@@ -120,6 +153,9 @@ class DrugTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if isFiltering() {
+            return filteredDrugs.count
+        }
         return drugs.count
     }
 
@@ -129,23 +165,64 @@ class DrugTableViewController: UITableViewController {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath) as? DrugTableViewCell else {
             fatalError("The dequeued cell is not an instance of DrugTableViewCell")
         }
-        
-        let drug = drugs[indexPath.row]
+        let drug: Drug
+        if isFiltering() {
+            drug = filteredDrugs[indexPath.row]
+        } else {
+            drug = drugs[indexPath.row]
+        }
         
         cell.drugNameLabel.text = "\(drug.generic) (\(drug.brand))"
-        cell.guidelineSourceLabel.text = "Source: \(drug.guidelineType)"
+        
+        
+        var guidelineText = ""
+        for (index, guidelineDescription) in drug.guidelines.enumerated() {
+            guard let guideline = guidelineDescription["Text"] else {
+                fatalError("Could not get guideline description")
+            }
+            if index == drug.guidelines.endIndex - 1 {
+                guidelineText.append("\(guideline)")
+            } else {
+                guidelineText.append("\(guideline), ")
+            }
+        }
+        
+        cell.guidelineSourceLabel.text = "Source: \(guidelineText)"
         
         return cell
     }
     
-    /*
+    private func isFiltering() -> Bool {
+        return searchController.isActive && !searchBarIsEmpty()
+    }
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+        if segue.identifier == "DrugInformationSegue" {
+            if let indexPath = self.tableView.indexPathForSelectedRow {
+                let drug: Drug
 
+                if isFiltering() {
+                    drug = filteredDrugs[indexPath.row]
+                } else {
+                    drug = drugs[indexPath.row]
+                }
+                print(drug)
+                let controller = segue.destination as! DrugViewController
+                controller.selectedDrug = drug
+            } else {
+                fatalError("Error with getting drug detail")
+            }
+        }
+    }
 }
+
+extension DrugTableViewController: UISearchResultsUpdating {
+    // MARK: - UISearchResultsUpdating Delegate
+    func updateSearchResults(for searchController: UISearchController) {
+        filterContentForSearchText(searchController.searchBar.text!)
+    }
+}
+

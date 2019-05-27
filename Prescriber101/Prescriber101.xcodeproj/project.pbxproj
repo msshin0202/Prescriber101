@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC06CEC521EC3DED00AF6F74 /* DrugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06CEC421EC3DED00AF6F74 /* DrugViewController.swift */; };
 		CCDDADBF21D2E453002222D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDDADBE21D2E453002222D6 /* AppDelegate.swift */; };
-		CCDDADC121D2E453002222D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDDADC021D2E453002222D6 /* ViewController.swift */; };
 		CCDDADC421D2E453002222D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDDADC221D2E453002222D6 /* Main.storyboard */; };
 		CCDDADC721D2E453002222D6 /* Prescriber101.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCDDADC521D2E453002222D6 /* Prescriber101.xcdatamodeld */; };
 		CCDDADC921D2E454002222D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCDDADC821D2E454002222D6 /* Assets.xcassets */; };
@@ -31,9 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC06CEC421EC3DED00AF6F74 /* DrugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugViewController.swift; sourceTree = "<group>"; };
 		CCDDADBB21D2E453002222D6 /* Prescriber101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prescriber101.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCDDADBE21D2E453002222D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CCDDADC021D2E453002222D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CCDDADC321D2E453002222D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCDDADC621D2E453002222D6 /* Prescriber101.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Prescriber101.xcdatamodel; sourceTree = "<group>"; };
 		CCDDADC821D2E454002222D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,8 +69,8 @@
 		CC11145221E326E200B3F4E9 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				CCDDADC021D2E453002222D6 /* ViewController.swift */,
 				CCDDADE721D592B1002222D6 /* DrugTableViewController.swift */,
+				CC06CEC421EC3DED00AF6F74 /* DrugViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -185,9 +185,11 @@
 				TargetAttributes = {
 					CCDDADBA21D2E453002222D6 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					CCDDADD121D2E454002222D6 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = CCDDADBA21D2E453002222D6;
 					};
 				};
@@ -237,9 +239,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCDDADC121D2E453002222D6 /* ViewController.swift in Sources */,
 				CCDDADBF21D2E453002222D6 /* AppDelegate.swift in Sources */,
 				CCDDADC721D2E453002222D6 /* Prescriber101.xcdatamodeld in Sources */,
+				CC06CEC521EC3DED00AF6F74 /* DrugViewController.swift in Sources */,
 				CCDDADEA21D592C2002222D6 /* DrugTableViewCell.swift in Sources */,
 				CCDDADE621D57D8D002222D6 /* Drug.swift in Sources */,
 				CCDDADE821D592B1002222D6 /* DrugTableViewController.swift in Sources */,
@@ -413,7 +415,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.theshinanigans.Prescriber101;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -431,7 +433,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.theshinanigans.Prescriber101;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -451,7 +453,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.theshinanigans.Prescriber101Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prescriber101.app/Prescriber101";
 			};
@@ -472,7 +474,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.theshinanigans.Prescriber101Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prescriber101.app/Prescriber101";
 			};
