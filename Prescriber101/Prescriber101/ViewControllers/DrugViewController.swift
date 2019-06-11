@@ -7,10 +7,11 @@
 //
 
 import UIKit
+import WebKit
 import os
 
 class DrugViewController: UIViewController {
-
+    
     @IBOutlet var backgroundColorViews: [UIView]!
     @IBOutlet weak var doseRouteScheduleStackView: UIStackView!
     @IBOutlet weak var adjustmentStackView: UIStackView!
@@ -18,13 +19,14 @@ class DrugViewController: UIViewController {
     @IBOutlet weak var trialsStackView: UIStackView!
     @IBOutlet weak var papersStackView: UIStackView!
     @IBOutlet weak var sourceStackView: UIStackView!
+    @IBOutlet weak var trialsTextView: UITextView!
+    @IBOutlet weak var papersTextView: UITextView!
     
     @IBOutlet weak var doseRouteScheduleLabel: UILabel!
     @IBOutlet weak var adjustmentsLabel: UILabel!
     @IBOutlet weak var contraindicationsLabel: UILabel!
-    @IBOutlet weak var trialsLabel: UILabel!
-    @IBOutlet weak var papersLabel: UILabel!
     @IBOutlet weak var sourceImage: UIImageView!
+    
     
     var selectedDrug: Drug?
     var trialsLinks = [NSMutableAttributedString]()
@@ -45,6 +47,7 @@ class DrugViewController: UIViewController {
         
         hideEmptyInfo(for: drug)
         displayDrugInfo(for: drug)
+        
     }
     
     private func hideEmptyInfo(for drug: Drug) {
@@ -68,6 +71,31 @@ class DrugViewController: UIViewController {
         }
     }
     
+    private func displaySourceImage(for drug: Drug) {
+        guard let guidelines = selectedDrug?.guidelines else {
+            fatalError("Error retrieving guidelines")
+        }
+        
+        for (_, info) in guidelines.enumerated() {
+            guard let guidelineText = info["Text"] else {
+                fatalError("Error retrieving type of guideline source")
+            }
+            
+            switch guidelineText {
+            case "Diabetes":
+                sourceImage.image = UIImage(named: "diabetesCanada")
+            default:
+                fatalError("Error displaying source image for given text.")
+            }
+            
+            // need to decide whether source image will be one or many and change code based on decision.
+//            guard let guidelineSource = info["Source"] else {
+//                fatalError("Error retrieving guideline URL")
+//            }
+            
+        }
+    }
+    
     private func displayDrugInfo(for drug: Drug) {
         // display dose route schedule
         doseRouteScheduleLabel.text = retrieveDisplayText(drugData: drug.doseRouteSchedule)
@@ -79,17 +107,16 @@ class DrugViewController: UIViewController {
         contraindicationsLabel.text = retrieveDisplayText(drugData: drug.contraindication)
         
         // display trials information
-        trialsLinks = setLinks(drugData: drug.supportingTrials)
-        trialsLabel.attributedText = retrieveDisplayText(for: trialsLinks)
-        
+        trialsLinks = setLinks(drugData: drug.supportingTrials, textView: trialsTextView)
+        trialsTextView.attributedText = retrieveDisplayText(for: trialsLinks)
         
         // display papers information
-        let paperInformation = setLinks(drugData: drug.landmarkPapers)
-//        papersLabel.text =  paperInformation.string
+        papersLinks = setLinks(drugData: drug.landmarkPapers, textView: papersTextView)
+        papersTextView.attributedText = retrieveDisplayText(for: papersLinks)
         
         // display source information
-        sourceImage.image = UIImage(named: "diabetesCanada")
-        sourceImage.contentMode = .scaleAspectFit
+        displaySourceImage(for: drug)
+        
     }
     
     private func retrieveDisplayText (for links: [NSMutableAttributedString]) -> NSMutableAttributedString {
@@ -105,9 +132,8 @@ class DrugViewController: UIViewController {
         return attributedText
     }
     
-    private func setLinks(drugData: [Dictionary<String, Any>]) -> [NSMutableAttributedString] {
+    private func setLinks(drugData: [Dictionary<String, Any>], textView: UITextView) -> [NSMutableAttributedString] {
         var mutableArray = [NSMutableAttributedString]()
-//        let mutableString = NSMutableAttributedString(string: "")
         for (_, info) in drugData.enumerated() {
             
             guard let descriptionString = info["Text"] as? String else {
@@ -121,17 +147,17 @@ class DrugViewController: UIViewController {
             }
             
             let descriptionMutableString = NSMutableAttributedString(string: descriptionString)
-            if descriptionMutableString.setAsLink(textToFind: descriptionString, linkURL: sourceString) {
-//                if index == drugData.endIndex - 1 {
-//                    mutableArray.append(descriptionMutableString)
-//                } else {
-                    mutableArray.append(descriptionMutableString)
-//                    mutableArray.append(NSAttributedString(string: "\n"))
-//                }
-            } else {
-                os_log("Unable to set link to trial")
-            }
+            let nsurl = NSURL(string: sourceString)!
+            descriptionMutableString.setAttributes([.link: nsurl], range: (descriptionString as NSString).range(of: descriptionString))
+            
+            textView.linkTextAttributes = [
+                .foregroundColor: UIColor.blue,
+                .underlineStyle: NSUnderlineStyle.single.rawValue,
+            ]
+            textView.attributedText = descriptionMutableString
+            mutableArray.append(descriptionMutableString)
         }
+        
         return mutableArray
     }
     
@@ -150,57 +176,34 @@ class DrugViewController: UIViewController {
     
     // MARK: IBActions
     
-    @IBAction func trialsLinkTapped(recognizer: UITapGestureRecognizer) {
-        for link in trialsLinks {
-            print(link)
+    @IBAction func sourceLinkTapped(recognizer: UITapGestureRecognizer) {
+        guard let guidelines = selectedDrug?.guidelines else {
+            fatalError("Error retrieving guidelines")
         }
         
-    }
-    
-    @IBAction func papersLinkTapped(recognizer: UITapGestureRecognizer) {
-        var papers = [NSURL]()
-        guard let landmarkPapers = selectedDrug?.landmarkPapers else {
-            fatalError("Unable to retrieve landmark papers")
+        for (_, info) in guidelines.enumerated() {
+            
+            guard let guidelineSource = info["Source"] else {
+                fatalError("Error retrieving guideline URL")
+            }
+            
+            if let sourceURL = NSURL(string: guidelineSource) as URL? {
+                UIApplication.shared.open(sourceURL)
+            }
+            
         }
-        for drug in landmarkPapers {
-            if let source = drug["Source"] {
-                if let sourceNSURL = NSURL(string: source) {
-                    papers.append(sourceNSURL)
-                }
-            }
-        }
-        
-        
-//        UIApplication.shared.open(<#T##url: URL##URL#>, options: <#T##[UIApplication.OpenExternalURLOptionsKey : Any]#>, completionHandler: <#T##((Bool) -> Void)?##((Bool) -> Void)?##(Bool) -> Void#>)
-    }
-        
-        @IBAction func sourceLinkTapped(recognizer: UITapGestureRecognizer) {
-            var papers = [NSURL]()
-            guard let landmarkPapers = selectedDrug?.landmarkPapers else {
-                fatalError("Unable to retrieve landmark papers")
-            }
-            for drug in landmarkPapers {
-                if let source = drug["Source"] {
-                    if let sourceNSURL = NSURL(string: source) {
-                        papers.append(sourceNSURL)
-                    }
-                }
-            }
-    }
-    
-    private func openLink(link: NSURL) {
-        
+        sourceImage.contentMode = .scaleAspectFit
     }
     
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destination.
+     // Pass the selected object to the new view controller.
+     }
+     */
 }
 
 extension NSMutableAttributedString {

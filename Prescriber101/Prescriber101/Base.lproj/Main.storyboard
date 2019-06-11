@@ -99,10 +99,10 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N4M-Jh-diQ">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="426"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="451.33333333333331"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="eob-tW-22W">
-                                                <rect key="frame" x="15" y="8" width="391" height="397.66666666666669"/>
+                                                <rect key="frame" x="15" y="8" width="391" height="423"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="1qc-rj-QBM" userLabel="Dose Schedule Stack View">
                                                         <rect key="frame" x="0.0" y="0.0" width="391" height="48"/>
@@ -162,7 +162,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Fkq-KB-Urd" userLabel="Trials Stack View">
-                                                        <rect key="frame" x="0.0" y="180" width="391" height="48"/>
+                                                        <rect key="frame" x="0.0" y="180" width="391" height="60.666666666666657"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trials" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JHn-my-ojx">
                                                                 <rect key="frame" x="0.0" y="0.0" width="391" height="22.666666666666668"/>
@@ -171,21 +171,16 @@
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7LU-pe-6up">
-                                                                <rect key="frame" x="0.0" y="27.666666666666686" width="391" height="20.333333333333329"/>
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Label" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Rel-O0-OxZ" userLabel="Trials Text View">
+                                                                <rect key="frame" x="0.0" y="27.666666666666686" width="391" height="33"/>
                                                                 <color key="backgroundColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <gestureRecognizers/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                <nil key="textColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                                <connections>
-                                                                    <outletCollection property="gestureRecognizers" destination="GFQ-Al-FS6" appends="YES" id="b3L-Yh-kik"/>
-                                                                </connections>
-                                                            </label>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                            </textView>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="bBj-Yv-seK" userLabel="Papers Stack View">
-                                                        <rect key="frame" x="0.0" y="240" width="391" height="48"/>
+                                                        <rect key="frame" x="0.0" y="252.66666666666666" width="391" height="60.666666666666657"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Papers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="svY-AE-VAO">
                                                                 <rect key="frame" x="0.0" y="0.0" width="391" height="22.666666666666668"/>
@@ -194,21 +189,16 @@
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e45-Os-yvQ">
-                                                                <rect key="frame" x="0.0" y="27.666666666666686" width="391" height="20.333333333333329"/>
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Label" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ck9-g0-cYa" userLabel="Papers Text View">
+                                                                <rect key="frame" x="0.0" y="27.666666666666629" width="391" height="33"/>
                                                                 <color key="backgroundColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <gestureRecognizers/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                <nil key="textColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                                <connections>
-                                                                    <outletCollection property="gestureRecognizers" destination="Cnk-gS-7W9" appends="YES" id="WPg-9v-DZV"/>
-                                                                </connections>
-                                                            </label>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                            </textView>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="o1M-iJ-vak" userLabel="Source Stack View">
-                                                        <rect key="frame" x="0.0" y="300" width="391" height="97.666666666666686"/>
+                                                        <rect key="frame" x="0.0" y="325.33333333333331" width="391" height="97.666666666666686"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Source" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mmP-cG-yzJ">
                                                                 <rect key="frame" x="0.0" y="0.0" width="68" height="22.666666666666668"/>
@@ -264,12 +254,12 @@
                         <outlet property="contraindicationsLabel" destination="Yyr-nZ-tyl" id="cs2-J2-y4S"/>
                         <outlet property="doseRouteScheduleLabel" destination="JBw-HK-1wH" id="ejL-Oj-ddg"/>
                         <outlet property="doseRouteScheduleStackView" destination="1qc-rj-QBM" id="jZh-1B-da3"/>
-                        <outlet property="papersLabel" destination="e45-Os-yvQ" id="K0Z-SE-QeD"/>
                         <outlet property="papersStackView" destination="bBj-Yv-seK" id="A27-2B-aEV"/>
+                        <outlet property="papersTextView" destination="ck9-g0-cYa" id="uyU-NY-BvY"/>
                         <outlet property="sourceImage" destination="neM-0W-Tmh" id="XnA-FK-NeU"/>
                         <outlet property="sourceStackView" destination="o1M-iJ-vak" id="BYJ-9s-dE4"/>
-                        <outlet property="trialsLabel" destination="7LU-pe-6up" id="SUe-4t-2bU"/>
                         <outlet property="trialsStackView" destination="Fkq-KB-Urd" id="CkG-lg-UO2"/>
+                        <outlet property="trialsTextView" destination="Rel-O0-OxZ" id="lEQ-hI-ENf"/>
                         <outletCollection property="backgroundColorViews" destination="DlD-js-Y25" collectionClass="NSMutableArray" id="sOF-Eh-sAJ"/>
                         <outletCollection property="backgroundColorViews" destination="JBw-HK-1wH" collectionClass="NSMutableArray" id="u1K-KG-maF"/>
                         <outletCollection property="backgroundColorViews" destination="bal-Uy-lcV" collectionClass="NSMutableArray" id="eKS-Q0-bQ9"/>
@@ -277,11 +267,11 @@
                         <outletCollection property="backgroundColorViews" destination="XOy-SW-vQF" collectionClass="NSMutableArray" id="hat-0t-4f8"/>
                         <outletCollection property="backgroundColorViews" destination="Yyr-nZ-tyl" collectionClass="NSMutableArray" id="klV-5P-nR3"/>
                         <outletCollection property="backgroundColorViews" destination="JHn-my-ojx" collectionClass="NSMutableArray" id="b0s-VF-F26"/>
-                        <outletCollection property="backgroundColorViews" destination="7LU-pe-6up" collectionClass="NSMutableArray" id="s7t-6I-YSl"/>
                         <outletCollection property="backgroundColorViews" destination="svY-AE-VAO" collectionClass="NSMutableArray" id="gvv-5f-Zam"/>
-                        <outletCollection property="backgroundColorViews" destination="e45-Os-yvQ" collectionClass="NSMutableArray" id="1n9-32-kZO"/>
                         <outletCollection property="backgroundColorViews" destination="mmP-cG-yzJ" collectionClass="NSMutableArray" id="G3Y-t7-UKa"/>
                         <outletCollection property="backgroundColorViews" destination="neM-0W-Tmh" collectionClass="NSMutableArray" id="XPl-8E-IX2"/>
+                        <outletCollection property="backgroundColorViews" destination="Rel-O0-OxZ" collectionClass="NSMutableArray" id="3Xs-8l-89r"/>
+                        <outletCollection property="backgroundColorViews" destination="ck9-g0-cYa" collectionClass="NSMutableArray" id="klO-a9-sdN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v7j-VS-5qz" userLabel="First Responder" sceneMemberID="firstResponder"/>

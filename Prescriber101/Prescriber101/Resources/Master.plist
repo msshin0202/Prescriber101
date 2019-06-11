@@ -41,12 +41,6 @@
 		<array>
 			<dict>
 				<key>Text</key>
-				<string>Test</string>
-				<key>Source</key>
-				<string>https://www.google.com</string>
-			</dict>
-			<dict>
-				<key>Text</key>
 				<string>NCT00457002 (ADOPT)</string>
 				<key>Source</key>
 				<string>https://clinicaltrials.gov/ct2/show/NCT00457002</string>
