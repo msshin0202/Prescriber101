@@ -15,8 +15,14 @@ class DrugTableViewController: UITableViewController {
     var drugs = [Drug]()
     var filteredDrugs = [Drug]()
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.navigationBar.barStyle = .black
         setCustomization()
         loadPlist()
         setUpSearchBar()
@@ -26,7 +32,7 @@ class DrugTableViewController: UITableViewController {
     
     private func loadPlist() {
         
-        guard let plist = Bundle.main.path(forResource: "Master", ofType: "plist") else {
+        guard let plist = Bundle.main.path(forResource: "master", ofType: "plist") else {
             fatalError("error loading plist")
         }
         guard let drugArray = NSArray(contentsOfFile: plist) else {
@@ -71,19 +77,17 @@ class DrugTableViewController: UITableViewController {
         var indication: String = ""
         var generic: String = ""
         var brand: String = ""
-        var doseRouteSchedule = [String]()
-        var adjustment = [String]()
-        var contraindication = [String]()
+        var prescriptionGuide = [String]()
         var notes = [String]()
-        var guidelines = [Dictionary<String, String>]()
-        var supportingTrials = [Dictionary<String, String>]()
-        var landmarkPapers = [Dictionary<String, String>]()
-        var keyTerms = [String]()
+        var guidelines = [[NSMutableAttributedString]()]
+        var relevantEvidence = [NSMutableAttributedString]()
+        var contributors = [String]()
+        var updatedDate = Date()
         
         for information in drug.keys {
             switch information {
-            case "Generic":
-                guard let genericName = drug["Generic"] as? String else {
+            case "Medication Name":
+                guard let genericName = drug["Medication Name"] as? String else {
                     fatalError("Generic name in plist in unexpected format")
                 }
                 generic = genericName
@@ -92,56 +96,101 @@ class DrugTableViewController: UITableViewController {
                     fatalError("Indication information in plist in unexpected format")
                 }
                 indication = indicationInfo
-            case "Brand":
-                guard let brandName = drug["Brand"] as? String else {
+            case "Brand Name(s)":
+                guard let brandName = drug["Brand Name(s)"] as? String else {
                     fatalError("Brand name in plist in unexpected format")
                 }
                 brand = brandName
-            case "Dose Route Schedule":
-                guard let doseRouteScheduleInfo = drug["Dose Route Schedule"] as? [String] else {
+            case "Prescription Guide":
+                guard let guide = drug["Prescription Guide"] as? [String] else {
                     fatalError("Dose Route Schedule information in plist in unexpected format")
                 }
-                doseRouteSchedule = doseRouteScheduleInfo
-            case "Adjustment":
-                guard let adjustmentInfo = drug["Adjustment"] as? [String] else {
-                    fatalError("Adjustment information in plist in unexpected format")
-                }
-                adjustment = adjustmentInfo
-            case "Contraindication":
-                guard let contraindicationInfo = drug["Contraindication"] as? [String] else {
-                    fatalError("Contraindication information in plist in unexpected format")
-                }
-                contraindication = contraindicationInfo
-            case "Notes":
-                guard let notesInfo = drug["Notes"] as? [String] else {
+                prescriptionGuide = guide
+            case "Note(s)":
+                guard let notesInfo = drug["Note(s)"] as? [String] else {
                     fatalError("Notes information in plist in unexpected format")
                 }
                 notes = notesInfo
-            case "Guidelines":
-                guard let guidelineInfo = drug["Guidelines"] as? [Dictionary<String,String>] else {
-                    fatalError("Guideline source information in plist in unexpected format")
+            case "Guideline (with appropriate links)":
+                guard let guidelineInfo = drug["Guideline (with appropriate links)"] as? [[Any]] else {
+                    fatalError("Guidelines information in plist in unexpected format")
                 }
-                guidelines = guidelineInfo
-            case "Supporting Trials":
-                guard let supportingTrialsInfo = drug["Supporting Trials"] as? [Dictionary<String,String>] else {
-                    fatalError("Guideline information in plist in unexpected format")
+                
+                for infoToDisplay in guidelineInfo {
+                    for content in infoToDisplay {
+                        if content is String {
+                            if let imageFileName = content as? String {
+                                let attributedImageFileName = NSMutableAttributedString(string: imageFileName)
+                                let imageArray = [attributedImageFileName]
+                                guidelines.append(imageArray)
+                            }
+                            // need a way to save this filename so in the drug view controller, we can access the image from file
+                        } else if content is Dictionary<String, String> {
+                            if let guidelineContent = content as? Dictionary<String, String> {
+                                if let link = guidelineContent["Link"] {
+                                    let attributedLink = NSMutableAttributedString(string: link)
+                                    if let text = guidelineContent["Text"]  {
+                                        let attributedText = NSMutableAttributedString(string: text)
+                                        let attributedEvidenceArray = [attributedLink, attributedText]
+                                        guidelines.append(attributedEvidenceArray)
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
-                supportingTrials = supportingTrialsInfo
-            case "Landmark Papers":
-                guard let landmarkPapersInfo = drug["Landmark Papers"] as? [Dictionary<String, String>] else {
-                    fatalError("Landmark Papers information in plist in unexpected format")
+            case "Relevant Evidence (i.e. studies, trials)":
+                guard let evidenceInfo = drug["Relevant Evidence (i.e. studies, trials)"] as? [[String: String]] else {
+                    fatalError("Relevant Evidence information in plist in unexpected format")
                 }
-                landmarkPapers = landmarkPapersInfo
-            case "Key Terms":
-                guard let keyTermsInfo = drug["Key Terms"] as? [String] else {
+                for evidence in evidenceInfo {
+//                    var newEvidence: [NSMutableAttributedString]
+                    var evidenceLink: String?
+                    var evidenceText: String?
+                    var mutableEvidence: NSMutableAttributedString
+                    for (type, content) in evidence {
+                        switch type {
+                        case "Link":
+                            evidenceLink = content
+                        case "Text":
+                            evidenceText = content
+                        default:
+                            fatalError("Unknown type of Evidence")
+                        }
+                    }
+                    
+                    guard evidenceText != nil else {
+                        fatalError("Evidence text was not set properly")
+                    }
+                    guard evidenceLink != nil else {
+                        fatalError("Evidence link was not set properly")
+                    }
+                    mutableEvidence = NSMutableAttributedString(string: evidenceText!)
+                    //                        guard let mutableEvidence = mutableEvidence else {
+                    //                            fatalError("Mutable evidence was not set properly")
+                    //                        }
+                    mutableEvidence.addAttribute(.link, value: evidenceLink!, range: NSRange(location: 0, length: mutableEvidence.length))
+                    relevantEvidence.append(mutableEvidence)
+                    //                        newEvidence.append(mutableEvidence)
+                    //                        newEvidence.updateValue(mutableEvidence, forKey: evidenceText)
+                    //                        relevantEvidence.append(newEvidence)
+                }
+            case "Contributor(s)":
+                guard let contributorsInfo = drug["Contributor(s)"] as? [String] else {
+                    fatalError("Contributor(s) information in plist in unexpected format")
+                }
+                contributors = contributorsInfo
+            case "Updated Date":
+                guard let dateInfo = drug["Updated Date"] as? Date else {
                     fatalError("Key Terms information in plist in unexpected format")
                 }
-                keyTerms = keyTermsInfo
+                updatedDate = dateInfo
             default:
+                print(information)
                 fatalError("unexpected information from plist: \(information)")
             }
         }
-        let newDrug = Drug(indication: indication, generic: generic, brand: brand, doseRouteSchedule: doseRouteSchedule, adjustment: adjustment, contraindication: contraindication, notes: notes, guidelines: guidelines, supportingTrials: supportingTrials, landmarkPapers: landmarkPapers, keyTerms: keyTerms)
+        let newDrug = Drug(indication: indication, generic: generic, brand: brand, prescriptionGuide:  prescriptionGuide, notes: notes, guidelines: guidelines, relevantEvidence: relevantEvidence, contributors: contributors, updatedDate: updatedDate)
         return newDrug
         
     }
@@ -172,22 +221,16 @@ class DrugTableViewController: UITableViewController {
             drug = drugs[indexPath.row]
         }
         
-        cell.drugNameLabel.text = "\(drug.generic) (\(drug.brand))"
+        let drugNameLabel = "\(drug.generic) \(drug.brand)"
+        let drugGeneric = drug.generic
+        let drugBrand = drug.brand
         
+        let nonBoldRange = NSMakeRange(drugGeneric.count, drugBrand.count+1)
         
-        var guidelineText = ""
-        for (index, guidelineDescription) in drug.guidelines.enumerated() {
-            guard let guideline = guidelineDescription["Text"] else {
-                fatalError("Could not get guideline description")
-            }
-            if index == drug.guidelines.endIndex - 1 {
-                guidelineText.append("\(guideline)")
-            } else {
-                guidelineText.append("\(guideline), ")
-            }
-        }
+        cell.drugNameLabel.attributedText = attributedString(from: drugNameLabel, nonBoldRange: nonBoldRange)
         
-        cell.guidelineSourceLabel.text = "Source: \(guidelineText)"
+        let indicationText = drug.indication
+        cell.guidelineSourceLabel.text = "\(indicationText)"
         
         return cell
     }
@@ -216,6 +259,23 @@ class DrugTableViewController: UITableViewController {
                 fatalError("Error with getting drug detail")
             }
         }
+    }
+    
+    func attributedString(from string: String, nonBoldRange: NSRange?) -> NSAttributedString {
+        let fontSize = UIFont.labelFontSize
+        let attributes = [
+            NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: fontSize)
+        ]
+        
+        let nonBoldAttr = [
+            NSAttributedString.Key.font: UIFont.systemFont(ofSize: fontSize)
+        ]
+        let attrString = NSMutableAttributedString(string: string, attributes: attributes)
+        
+        if let range = nonBoldRange {
+            attrString.setAttributes(nonBoldAttr, range: range)
+        }
+        return attrString
     }
 }
 

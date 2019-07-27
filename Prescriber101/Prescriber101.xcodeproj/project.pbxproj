@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		CC06CEC521EC3DED00AF6F74 /* DrugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06CEC421EC3DED00AF6F74 /* DrugViewController.swift */; };
+		CCC74BF622CA855500AA5D46 /* master.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCC74BF522CA855400AA5D46 /* master.plist */; };
 		CCDDADBF21D2E453002222D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDDADBE21D2E453002222D6 /* AppDelegate.swift */; };
 		CCDDADC421D2E453002222D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDDADC221D2E453002222D6 /* Main.storyboard */; };
 		CCDDADC721D2E453002222D6 /* Prescriber101.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCDDADC521D2E453002222D6 /* Prescriber101.xcdatamodeld */; };
 		CCDDADC921D2E454002222D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCDDADC821D2E454002222D6 /* Assets.xcassets */; };
 		CCDDADCC21D2E454002222D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDDADCA21D2E454002222D6 /* LaunchScreen.storyboard */; };
 		CCDDADD721D2E454002222D6 /* Prescriber101Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDDADD621D2E454002222D6 /* Prescriber101Tests.swift */; };
-		CCDDADE421D2EB50002222D6 /* Master.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCDDADE321D2EB50002222D6 /* Master.plist */; };
 		CCDDADE621D57D8D002222D6 /* Drug.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDDADE521D57D8D002222D6 /* Drug.swift */; };
 		CCDDADE821D592B1002222D6 /* DrugTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDDADE721D592B1002222D6 /* DrugTableViewController.swift */; };
 		CCDDADEA21D592C2002222D6 /* DrugTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDDADE921D592C2002222D6 /* DrugTableViewCell.swift */; };
@@ -32,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		CC06CEC421EC3DED00AF6F74 /* DrugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugViewController.swift; sourceTree = "<group>"; };
+		CCC74BF522CA855400AA5D46 /* master.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = master.plist; sourceTree = "<group>"; };
 		CCDDADBB21D2E453002222D6 /* Prescriber101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prescriber101.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCDDADBE21D2E453002222D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCDDADC321D2E453002222D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,7 +43,6 @@
 		CCDDADD221D2E454002222D6 /* Prescriber101Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Prescriber101Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCDDADD621D2E454002222D6 /* Prescriber101Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prescriber101Tests.swift; sourceTree = "<group>"; };
 		CCDDADD821D2E454002222D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CCDDADE321D2EB50002222D6 /* Master.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Master.plist; sourceTree = "<group>"; };
 		CCDDADE521D57D8D002222D6 /* Drug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drug.swift; sourceTree = "<group>"; };
 		CCDDADE721D592B1002222D6 /* DrugTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugTableViewController.swift; sourceTree = "<group>"; };
 		CCDDADE921D592C2002222D6 /* DrugTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugTableViewCell.swift; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 		CC11145421E3271200B3F4E9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CCDDADE321D2EB50002222D6 /* Master.plist */,
+				CCC74BF522CA855400AA5D46 /* master.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -220,7 +220,7 @@
 			files = (
 				CCDDADCC21D2E454002222D6 /* LaunchScreen.storyboard in Resources */,
 				CCDDADC921D2E454002222D6 /* Assets.xcassets in Resources */,
-				CCDDADE421D2EB50002222D6 /* Master.plist in Resources */,
+				CCC74BF622CA855500AA5D46 /* master.plist in Resources */,
 				CCDDADC421D2E453002222D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

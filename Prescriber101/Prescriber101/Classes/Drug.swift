@@ -13,28 +13,24 @@ class Drug {
     var indication: String
     var generic: String
     var brand: String
-    var doseRouteSchedule: [String]
-    var adjustment: [String]
-    var contraindication: [String]
+    var prescriptionGuide: [String]
     var notes: [String]
-    var guidelines: [Dictionary<String, String>]
-    var supportingTrials: [Dictionary<String, String>]
-    var landmarkPapers: [Dictionary<String, String>]
-    var keyTerms: [String]
+    var guidelines: [[NSMutableAttributedString]]
+    var relevantEvidence: [NSMutableAttributedString]
+    var contributors: [String]
+    var updatedDate: Date
     
-    init(indication: String, generic: String, brand: String, doseRouteSchedule: [String], adjustment: [String], contraindication: [String], notes: [String], guidelines: [Dictionary<String, String>], supportingTrials: [Dictionary<String, String>], landmarkPapers: [Dictionary<String,String>], keyTerms: [String]) {
+    init(indication: String, generic: String, brand: String, prescriptionGuide: [String], notes: [String], guidelines: [[NSMutableAttributedString]], relevantEvidence: [NSMutableAttributedString], contributors: [String], updatedDate: Date) {
         
         self.indication = indication
         self.generic = generic
         self.brand = brand
-        self.guidelines = guidelines
-        self.doseRouteSchedule = doseRouteSchedule
-        self.adjustment = adjustment
-        self.contraindication = contraindication
+        self.prescriptionGuide = prescriptionGuide
         self.notes = notes
-        self.landmarkPapers = landmarkPapers
-        self.supportingTrials = supportingTrials
-        self.keyTerms = keyTerms
-    
+        self.guidelines = guidelines
+        self.relevantEvidence = relevantEvidence
+        self.contributors = contributors
+        self.updatedDate = updatedDate    
     }
+    
 }

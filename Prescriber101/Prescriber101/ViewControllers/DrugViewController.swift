@@ -13,23 +13,24 @@ import os
 class DrugViewController: UIViewController {
     
     @IBOutlet var backgroundColorViews: [UIView]!
-    @IBOutlet weak var doseRouteScheduleStackView: UIStackView!
-    @IBOutlet weak var adjustmentStackView: UIStackView!
-    @IBOutlet weak var contraindicationStackView: UIStackView!
-    @IBOutlet weak var trialsStackView: UIStackView!
-    @IBOutlet weak var papersStackView: UIStackView!
-    @IBOutlet weak var sourceStackView: UIStackView!
-    @IBOutlet weak var trialsTextView: UITextView!
-    @IBOutlet weak var papersTextView: UITextView!
+    @IBOutlet weak var indicationStackView: UIStackView!
+    @IBOutlet weak var dosageStackView: UIStackView!
+    @IBOutlet weak var relevantEvidenceStackView: UIStackView!
+    @IBOutlet weak var guidelineStackView: UIStackView!
+    @IBOutlet weak var lastUpdatedStackView: UIStackView!
+    @IBOutlet weak var contributorsStackView: UIStackView!
+    @IBOutlet weak var guidelineTextView: UITextView!
+    @IBOutlet weak var relevantEvidenceTextView: UITextView!
     
-    @IBOutlet weak var doseRouteScheduleLabel: UILabel!
-    @IBOutlet weak var adjustmentsLabel: UILabel!
-    @IBOutlet weak var contraindicationsLabel: UILabel!
-    @IBOutlet weak var sourceImage: UIImageView!
+    @IBOutlet weak var indicationLabel: UILabel!
+    @IBOutlet weak var dosageLabel: UILabel!
+    @IBOutlet weak var lastUpdatedLabel: UILabel!
+    @IBOutlet weak var guidelineImage: UIImageView!
+    @IBOutlet weak var contributorsLabel: UILabel!
     
     
     var selectedDrug: Drug?
-    var trialsLinks = [NSMutableAttributedString]()
+    var relevantEvidenceLinks = [NSMutableAttributedString]()
     var papersLinks = [NSMutableAttributedString]()
     var sourceLinks = [NSMutableAttributedString]()
     
@@ -51,72 +52,83 @@ class DrugViewController: UIViewController {
     }
     
     private func hideEmptyInfo(for drug: Drug) {
-        if drug.doseRouteSchedule.isEmpty {
-            doseRouteScheduleStackView.isHidden = true
+        if drug.prescriptionGuide.isEmpty {
+            dosageStackView.isHidden = true
         }
-        if drug.adjustment.isEmpty {
-            adjustmentStackView.isHidden = true
-        }
-        if drug.contraindication.isEmpty {
-            contraindicationStackView.isHidden = true
-        }
-        if drug.supportingTrials.isEmpty {
-            trialsStackView.isHidden = true
-        }
-        if drug.landmarkPapers.isEmpty {
-            papersStackView.isHidden = true
+        if drug.relevantEvidence.isEmpty {
+            relevantEvidenceStackView.isHidden = true
         }
         if drug.guidelines.isEmpty {
-            sourceStackView.isHidden = true
+            guidelineStackView.isHidden = true
         }
-    }
-    
-    private func displaySourceImage(for drug: Drug) {
-        guard let guidelines = selectedDrug?.guidelines else {
-            fatalError("Error retrieving guidelines")
-        }
-        
-        for (_, info) in guidelines.enumerated() {
-            guard let guidelineText = info["Text"] else {
-                fatalError("Error retrieving type of guideline source")
-            }
-            
-            switch guidelineText {
-            case "Diabetes":
-                sourceImage.image = UIImage(named: "diabetesCanada")
-            default:
-                fatalError("Error displaying source image for given text.")
-            }
-            
-            // need to decide whether source image will be one or many and change code based on decision.
-//            guard let guidelineSource = info["Source"] else {
-//                fatalError("Error retrieving guideline URL")
-//            }
-            
+        if drug.contributors.isEmpty {
+            contributorsStackView.isHidden = true
         }
     }
     
     private func displayDrugInfo(for drug: Drug) {
-        // display dose route schedule
-        doseRouteScheduleLabel.text = retrieveDisplayText(drugData: drug.doseRouteSchedule)
+        // display drug indication
+        indicationLabel.text = drug.indication
         
-        // display adjustments/caution info
-        adjustmentsLabel.text = retrieveDisplayText(drugData: drug.adjustment)
+        // display dosage info
+        dosageLabel.text = retrieveDisplayText(drugData: drug.prescriptionGuide)
         
-        // display contraindications information
-        contraindicationsLabel.text = retrieveDisplayText(drugData: drug.contraindication)
+        // display relevant evidence information
+        relevantEvidenceTextView.attributedText = retrieveDisplayText(for: drug.relevantEvidence)
         
-        // display trials information
-        trialsLinks = setLinks(drugData: drug.supportingTrials, textView: trialsTextView)
-        trialsTextView.attributedText = retrieveDisplayText(for: trialsLinks)
+        // display guideline image with link
+        displayGuidelineImage(for: drug)
         
-        // display papers information
-        papersLinks = setLinks(drugData: drug.landmarkPapers, textView: papersTextView)
-        papersTextView.attributedText = retrieveDisplayText(for: papersLinks)
+        // display last updated information
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss Z"
+
+        let dateString = formatter.string(from: drug.updatedDate)
+        if let intermediateDate = formatter.date(from: dateString) {
+            formatter.dateFormat = "dd-MMM-yy"
+            let finalDate = formatter.string(from: intermediateDate)
+            lastUpdatedLabel.text = finalDate
+        }
+
+        // display contributor(s) information
+        contributorsLabel.text = retrieveDisplayText(drugData: drug.contributors)
         
-        // display source information
-        displaySourceImage(for: drug)
+    }
+    
+    private func displayGuidelineImage(for drug: Drug) {
+        guard let guidelines = selectedDrug?.guidelines else {
+            fatalError("Error retrieving guidelines")
+        }
         
+        for guide in guidelines {
+            if guide.count == 1 {
+                // image source in this array
+                guidelineImage.image = UIImage(named: guide[0].string)
+            } else {
+                // create NSMutableAttributedString
+                // let clickableLink = NSMutableAttributedString(string: text)
+                // clickableLink.addAttribute(.link, value: link, range: NSRange(location: 0, length: clickableLink.length - 1))
+            }
+        }
+        
+//        for (_, info) in guidelines.enumerated() {
+//            guard let guidelineText = info["Text"] else {
+//                fatalError("Error retrieving type of guideline source")
+//            }
+//
+//            switch guidelineText {
+//            case "Diabetes":
+//                sourceImage.image = UIImage(named: "diabetesCanada")
+//            default:
+//                fatalError("Error displaying source image for given text.")
+//            }
+//
+//        }
+    }
+    
+    private func retrieveRelevantEvidenceText(drugData: [[NSMutableAttributedString]]) -> NSMutableAttributedString {
+        //implement
+        return NSMutableAttributedString()
     }
     
     private func retrieveDisplayText (for links: [NSMutableAttributedString]) -> NSMutableAttributedString {
@@ -182,17 +194,17 @@ class DrugViewController: UIViewController {
         }
         
         for (_, info) in guidelines.enumerated() {
-            
-            guard let guidelineSource = info["Source"] else {
-                fatalError("Error retrieving guideline URL")
-            }
-            
-            if let sourceURL = NSURL(string: guidelineSource) as URL? {
-                UIApplication.shared.open(sourceURL)
-            }
+//
+//            guard let guidelineSource = info["Source"] else {
+//                fatalError("Error retrieving guideline URL")
+//            }
+//
+//            if let sourceURL = NSURL(string: guidelineSource) as URL? {
+//                UIApplication.shared.open(sourceURL)
+//            }
             
         }
-        sourceImage.contentMode = .scaleAspectFit
+        guidelineImage.contentMode = .scaleAspectFit
     }
     
     /*
