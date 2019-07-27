@@ -15,12 +15,12 @@ class Drug {
     var brand: String
     var prescriptionGuide: [String]
     var notes: [String]
-    var guidelines: [[NSMutableAttributedString]]
+    var guidelines: [[Any]]
     var relevantEvidence: [NSMutableAttributedString]
     var contributors: [String]
     var updatedDate: Date
     
-    init(indication: String, generic: String, brand: String, prescriptionGuide: [String], notes: [String], guidelines: [[NSMutableAttributedString]], relevantEvidence: [NSMutableAttributedString], contributors: [String], updatedDate: Date) {
+    init(indication: String, generic: String, brand: String, prescriptionGuide: [String], notes: [String], guidelines: [[Any]], relevantEvidence: [NSMutableAttributedString], contributors: [String], updatedDate: Date) {
         
         self.indication = indication
         self.generic = generic

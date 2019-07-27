@@ -11,14 +11,14 @@ import UIKit
 class DrugTableViewController: UITableViewController {
     
     let searchController = UISearchController(searchResultsController: nil)
-
+    
     var drugs = [Drug]()
     var filteredDrugs = [Drug]()
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
     }
-
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -79,7 +79,7 @@ class DrugTableViewController: UITableViewController {
         var brand: String = ""
         var prescriptionGuide = [String]()
         var notes = [String]()
-        var guidelines = [[NSMutableAttributedString]()]
+        var guidelines = [[Any]]()
         var relevantEvidence = [NSMutableAttributedString]()
         var contributors = [String]()
         var updatedDate = Date()
@@ -120,21 +120,13 @@ class DrugTableViewController: UITableViewController {
                     for content in infoToDisplay {
                         if content is String {
                             if let imageFileName = content as? String {
-                                let attributedImageFileName = NSMutableAttributedString(string: imageFileName)
-                                let imageArray = [attributedImageFileName]
+                                let imageArray = [imageFileName]
                                 guidelines.append(imageArray)
                             }
-                            // need a way to save this filename so in the drug view controller, we can access the image from file
                         } else if content is Dictionary<String, String> {
                             if let guidelineContent = content as? Dictionary<String, String> {
-                                if let link = guidelineContent["Link"] {
-                                    let attributedLink = NSMutableAttributedString(string: link)
-                                    if let text = guidelineContent["Text"]  {
-                                        let attributedText = NSMutableAttributedString(string: text)
-                                        let attributedEvidenceArray = [attributedLink, attributedText]
-                                        guidelines.append(attributedEvidenceArray)
-                                    }
-                                }
+                                let guideArray = [guidelineContent]
+                                guidelines.append(guideArray)
                             }
                         }
                     }
@@ -144,7 +136,6 @@ class DrugTableViewController: UITableViewController {
                     fatalError("Relevant Evidence information in plist in unexpected format")
                 }
                 for evidence in evidenceInfo {
-//                    var newEvidence: [NSMutableAttributedString]
                     var evidenceLink: String?
                     var evidenceText: String?
                     var mutableEvidence: NSMutableAttributedString
@@ -166,14 +157,8 @@ class DrugTableViewController: UITableViewController {
                         fatalError("Evidence link was not set properly")
                     }
                     mutableEvidence = NSMutableAttributedString(string: evidenceText!)
-                    //                        guard let mutableEvidence = mutableEvidence else {
-                    //                            fatalError("Mutable evidence was not set properly")
-                    //                        }
                     mutableEvidence.addAttribute(.link, value: evidenceLink!, range: NSRange(location: 0, length: mutableEvidence.length))
                     relevantEvidence.append(mutableEvidence)
-                    //                        newEvidence.append(mutableEvidence)
-                    //                        newEvidence.updateValue(mutableEvidence, forKey: evidenceText)
-                    //                        relevantEvidence.append(newEvidence)
                 }
             case "Contributor(s)":
                 guard let contributorsInfo = drug["Contributor(s)"] as? [String] else {
@@ -194,20 +179,20 @@ class DrugTableViewController: UITableViewController {
         return newDrug
         
     }
-
+    
     // MARK: - Table view data source
-
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
-
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if isFiltering() {
             return filteredDrugs.count
         }
         return drugs.count
     }
-
+    
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let identifier = "DrugTableViewCell"
@@ -240,13 +225,13 @@ class DrugTableViewController: UITableViewController {
     }
     
     // MARK: - Navigation
-
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "DrugInformationSegue" {
             if let indexPath = self.tableView.indexPathForSelectedRow {
                 let drug: Drug
-
+                
                 if isFiltering() {
                     drug = filteredDrugs[indexPath.row]
                 } else {

@@ -82,14 +82,14 @@ class DrugViewController: UIViewController {
         // display last updated information
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy-MM-dd HH:mm:ss Z"
-
+        
         let dateString = formatter.string(from: drug.updatedDate)
         if let intermediateDate = formatter.date(from: dateString) {
             formatter.dateFormat = "dd-MMM-yy"
             let finalDate = formatter.string(from: intermediateDate)
             lastUpdatedLabel.text = finalDate
         }
-
+        
         // display contributor(s) information
         contributorsLabel.text = retrieveDisplayText(drugData: drug.contributors)
         
@@ -101,29 +101,45 @@ class DrugViewController: UIViewController {
         }
         
         for guide in guidelines {
-            if guide.count == 1 {
+            if guide is [String] {
                 // image source in this array
-                guidelineImage.image = UIImage(named: guide[0].string)
-            } else {
+                if let imageString = guide[0] as? String {
+                    guidelineImage.image = UIImage(named: imageString)
+                }
+            } else if guide is [Dictionary<String, String>] {
                 // create NSMutableAttributedString
-                // let clickableLink = NSMutableAttributedString(string: text)
-                // clickableLink.addAttribute(.link, value: link, range: NSRange(location: 0, length: clickableLink.length - 1))
+                var guidelineArray = [NSMutableAttributedString]()
+                for guideContent in guide {
+                    if let guideDict = guideContent as? Dictionary<String, String> {
+                        guard let guideText = guideDict["Text"] else {
+                            fatalError("Guide text not formmatted correctly")
+                        }
+                        guard let guideLink = guideDict["Link"] else {
+                            fatalError("Guide link not formmated correctly")
+                        }
+                        let clickableLink = NSMutableAttributedString(string: guideText)
+                        clickableLink.addAttribute(.link, value: guideLink, range: NSRange(location: 0, length: clickableLink.length))
+                        guidelineArray.append(clickableLink)
+                        print(clickableLink)
+                    }
+                }
+                guidelineTextView.attributedText = retrieveDisplayText(for: guidelineArray)
             }
         }
         
-//        for (_, info) in guidelines.enumerated() {
-//            guard let guidelineText = info["Text"] else {
-//                fatalError("Error retrieving type of guideline source")
-//            }
-//
-//            switch guidelineText {
-//            case "Diabetes":
-//                sourceImage.image = UIImage(named: "diabetesCanada")
-//            default:
-//                fatalError("Error displaying source image for given text.")
-//            }
-//
-//        }
+        //        for (_, info) in guidelines.enumerated() {
+        //            guard let guidelineText = info["Text"] else {
+        //                fatalError("Error retrieving type of guideline source")
+        //            }
+        //
+        //            switch guidelineText {
+        //            case "Diabetes":
+        //                sourceImage.image = UIImage(named: "diabetesCanada")
+        //            default:
+        //                fatalError("Error displaying source image for given text.")
+        //            }
+        //
+        //        }
     }
     
     private func retrieveRelevantEvidenceText(drugData: [[NSMutableAttributedString]]) -> NSMutableAttributedString {
@@ -194,14 +210,14 @@ class DrugViewController: UIViewController {
         }
         
         for (_, info) in guidelines.enumerated() {
-//
-//            guard let guidelineSource = info["Source"] else {
-//                fatalError("Error retrieving guideline URL")
-//            }
-//
-//            if let sourceURL = NSURL(string: guidelineSource) as URL? {
-//                UIApplication.shared.open(sourceURL)
-//            }
+            //
+            //            guard let guidelineSource = info["Source"] else {
+            //                fatalError("Error retrieving guideline URL")
+            //            }
+            //
+            //            if let sourceURL = NSURL(string: guidelineSource) as URL? {
+            //                UIApplication.shared.open(sourceURL)
+            //            }
             
         }
         guidelineImage.contentMode = .scaleAspectFit

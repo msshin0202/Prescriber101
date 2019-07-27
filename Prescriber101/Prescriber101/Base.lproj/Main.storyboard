@@ -102,7 +102,7 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N4M-Jh-diQ">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="476.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="15" width="414" height="476.66666666666669"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="eob-tW-22W">
                                                 <rect key="frame" x="15" y="8" width="391" height="448.33333333333331"/>
@@ -118,7 +118,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBw-HK-1wH" userLabel="Indication Label">
-                                                                <rect key="frame" x="0.0" y="27.666666666666671" width="391" height="20.333333333333329"/>
+                                                                <rect key="frame" x="0.0" y="27.666666666666657" width="391" height="20.333333333333329"/>
                                                                 <color key="backgroundColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
@@ -156,7 +156,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Label" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ck9-g0-cYa" userLabel="Relevant Evidence Text View">
-                                                                <rect key="frame" x="0.0" y="27.666666666666657" width="391" height="33"/>
+                                                                <rect key="frame" x="0.0" y="27.666666666666686" width="391" height="33"/>
                                                                 <color key="backgroundColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -242,7 +242,7 @@
                                 <constraints>
                                     <constraint firstItem="N4M-Jh-diQ" firstAttribute="centerX" secondItem="dFa-M5-Epp" secondAttribute="centerX" id="9O0-AX-hTc"/>
                                     <constraint firstItem="N4M-Jh-diQ" firstAttribute="leading" secondItem="dFa-M5-Epp" secondAttribute="leading" id="9du-0R-Pic"/>
-                                    <constraint firstItem="N4M-Jh-diQ" firstAttribute="top" secondItem="dFa-M5-Epp" secondAttribute="top" id="Qdk-dG-d5Z"/>
+                                    <constraint firstItem="N4M-Jh-diQ" firstAttribute="top" secondItem="dFa-M5-Epp" secondAttribute="top" constant="15" id="Qdk-dG-d5Z"/>
                                     <constraint firstAttribute="bottom" secondItem="N4M-Jh-diQ" secondAttribute="bottom" constant="328" id="dcF-ib-FRT"/>
                                     <constraint firstAttribute="trailing" secondItem="N4M-Jh-diQ" secondAttribute="trailing" id="lCA-yw-KF3"/>
                                 </constraints>
