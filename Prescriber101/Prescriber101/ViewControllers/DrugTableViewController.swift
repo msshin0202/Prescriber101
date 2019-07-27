@@ -116,12 +116,12 @@ class DrugTableViewController: UITableViewController {
                     fatalError("Guidelines information in plist in unexpected format")
                 }
                 
+                var imageArray = [String]()
                 for infoToDisplay in guidelineInfo {
                     for content in infoToDisplay {
                         if content is String {
-                            if let imageFileName = content as? String {
-                                let imageArray = [imageFileName]
-                                guidelines.append(imageArray)
+                            if let imageFileData = content as? String {
+                                imageArray.append(imageFileData)
                             }
                         } else if content is Dictionary<String, String> {
                             if let guidelineContent = content as? Dictionary<String, String> {
@@ -130,6 +130,7 @@ class DrugTableViewController: UITableViewController {
                             }
                         }
                     }
+                    guidelines.append(imageArray)
                 }
             case "Relevant Evidence (i.e. studies, trials)":
                 guard let evidenceInfo = drug["Relevant Evidence (i.e. studies, trials)"] as? [[String: String]] else {

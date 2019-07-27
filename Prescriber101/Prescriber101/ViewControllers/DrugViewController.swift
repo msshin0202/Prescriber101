@@ -106,6 +106,7 @@ class DrugViewController: UIViewController {
                 if let imageString = guide[0] as? String {
                     guidelineImage.image = UIImage(named: imageString)
                 }
+                
             } else if guide is [Dictionary<String, String>] {
                 // create NSMutableAttributedString
                 var guidelineArray = [NSMutableAttributedString]()
@@ -126,25 +127,6 @@ class DrugViewController: UIViewController {
                 guidelineTextView.attributedText = retrieveDisplayText(for: guidelineArray)
             }
         }
-        
-        //        for (_, info) in guidelines.enumerated() {
-        //            guard let guidelineText = info["Text"] else {
-        //                fatalError("Error retrieving type of guideline source")
-        //            }
-        //
-        //            switch guidelineText {
-        //            case "Diabetes":
-        //                sourceImage.image = UIImage(named: "diabetesCanada")
-        //            default:
-        //                fatalError("Error displaying source image for given text.")
-        //            }
-        //
-        //        }
-    }
-    
-    private func retrieveRelevantEvidenceText(drugData: [[NSMutableAttributedString]]) -> NSMutableAttributedString {
-        //implement
-        return NSMutableAttributedString()
     }
     
     private func retrieveDisplayText (for links: [NSMutableAttributedString]) -> NSMutableAttributedString {
@@ -159,36 +141,7 @@ class DrugViewController: UIViewController {
         }
         return attributedText
     }
-    
-    private func setLinks(drugData: [Dictionary<String, Any>], textView: UITextView) -> [NSMutableAttributedString] {
-        var mutableArray = [NSMutableAttributedString]()
-        for (_, info) in drugData.enumerated() {
-            
-            guard let descriptionString = info["Text"] as? String else {
-                os_log("Unexpected format of text description")
-                return mutableArray
-            }
-            
-            guard let sourceString = info["Source"] as? String else {
-                os_log("Unexpected format of source description")
-                return mutableArray
-            }
-            
-            let descriptionMutableString = NSMutableAttributedString(string: descriptionString)
-            let nsurl = NSURL(string: sourceString)!
-            descriptionMutableString.setAttributes([.link: nsurl], range: (descriptionString as NSString).range(of: descriptionString))
-            
-            textView.linkTextAttributes = [
-                .foregroundColor: UIColor.blue,
-                .underlineStyle: NSUnderlineStyle.single.rawValue,
-            ]
-            textView.attributedText = descriptionMutableString
-            mutableArray.append(descriptionMutableString)
-        }
-        
-        return mutableArray
-    }
-    
+
     private func retrieveDisplayText(drugData: [String]) -> String {
         var drugInfoToBeDisplayed = ""
         
@@ -204,45 +157,24 @@ class DrugViewController: UIViewController {
     
     // MARK: IBActions
     
-    @IBAction func sourceLinkTapped(recognizer: UITapGestureRecognizer) {
+    @IBAction func guidelineImageTapped(recognizer: UITapGestureRecognizer) {
+        
         guard let guidelines = selectedDrug?.guidelines else {
             fatalError("Error retrieving guidelines")
         }
         
-        for (_, info) in guidelines.enumerated() {
-            //
-            //            guard let guidelineSource = info["Source"] else {
-            //                fatalError("Error retrieving guideline URL")
-            //            }
-            //
-            //            if let sourceURL = NSURL(string: guidelineSource) as URL? {
-            //                UIApplication.shared.open(sourceURL)
-            //            }
-            
+        for guide in guidelines {
+            if guide is [String] {
+                // image source in this array
+                guard let imageLink = guide[1] as? String else {
+                    fatalError("Unable to retrieve image link")
+                }
+                
+                if let sourceURL = NSURL(string: imageLink) as URL? {
+                    UIApplication.shared.open(sourceURL)
+                }
+                
+            }
         }
-        guidelineImage.contentMode = .scaleAspectFit
-    }
-    
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destination.
-     // Pass the selected object to the new view controller.
-     }
-     */
-}
-
-extension NSMutableAttributedString {
-    
-    public func setAsLink(textToFind:String, linkURL:String) -> Bool {
-        
-        let foundRange = self.mutableString.range(of: textToFind)
-        if foundRange.location != NSNotFound {
-            self.addAttribute(.link, value: linkURL, range: foundRange)
-            return true
-        }
-        return false
     }
 }

@@ -299,7 +299,7 @@
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="i1R-Ss-BMb" userLabel="Image Tap Gesture Recognizer">
                     <connections>
-                        <action selector="sourceLinkTappedWithRecognizer:" destination="BtU-QR-Mhq" id="WNR-sC-8x9"/>
+                        <action selector="guidelineImageTappedWithRecognizer:" destination="BtU-QR-Mhq" id="UkY-RU-EcR"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
