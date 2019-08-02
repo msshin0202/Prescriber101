@@ -75,9 +75,11 @@ class DrugViewController: UIViewController {
         
         // display relevant evidence information
         relevantEvidenceTextView.attributedText = retrieveDisplayText(for: drug.relevantEvidence)
+        setTextViewFormat(for: relevantEvidenceTextView)
         
         // display guideline image with link
         displayGuidelineImage(for: drug)
+        setTextViewFormat(for: guidelineTextView)
         
         // display last updated information
         let formatter = DateFormatter()
@@ -95,6 +97,12 @@ class DrugViewController: UIViewController {
         
     }
     
+    private func setTextViewFormat(for textView: UITextView) {
+        textView.font = UIFont.systemFont(ofSize: 17)
+        textView.textContainer.lineFragmentPadding = 0
+        textView.textContainerInset = UIEdgeInsets.zero
+    }
+    
     private func displayGuidelineImage(for drug: Drug) {
         guard let guidelines = selectedDrug?.guidelines else {
             fatalError("Error retrieving guidelines")
@@ -104,7 +112,11 @@ class DrugViewController: UIViewController {
             if guide is [String] {
                 // image source in this array
                 if let imageString = guide[0] as? String {
-                    guidelineImage.image = UIImage(named: imageString)
+                    if let loadedImage = UIImage(named: imageString) {
+                        guidelineImage.image = loadedImage
+                    } else {
+                        guidelineImage.isHidden = true
+                    }
                 }
                 
             } else if guide is [Dictionary<String, String>] {
@@ -121,7 +133,6 @@ class DrugViewController: UIViewController {
                         let clickableLink = NSMutableAttributedString(string: guideText)
                         clickableLink.addAttribute(.link, value: guideLink, range: NSRange(location: 0, length: clickableLink.length))
                         guidelineArray.append(clickableLink)
-                        print(clickableLink)
                     }
                 }
                 guidelineTextView.attributedText = retrieveDisplayText(for: guidelineArray)
