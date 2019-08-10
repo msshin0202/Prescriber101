@@ -100,7 +100,10 @@ class DrugTableViewController: UITableViewController {
                 guard let brandName = drug["Brand Name(s)"] as? String else {
                     fatalError("Brand name in plist in unexpected format")
                 }
-                brand = brandName
+                let brands = brandName.split {$0.isNewline}
+                for eachBrand in brands {
+                    brand.append(eachBrand + " ")
+                }
             case "Prescription Guide":
                 guard let guide = drug["Prescription Guide"] as? [String] else {
                     fatalError("Dose Route Schedule information in plist in unexpected format")
