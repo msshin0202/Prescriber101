@@ -1,0 +1,3846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Plavix</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://thrombosiscanada.ca/wp-content/uploads/2019/01/Clopidogrel-2018Sep10.pdf</string>
+					<key>Text</key>
+					<string>Clopidogrel PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Acute Coronary Syndrome</string>
+		<key>Medication Name</key>
+		<string>Clopidogrel</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>300–600 mg PO (loading dose)</string>
+			<string>75 mg PO once daily (after loading dose)</string>
+			<string>150 mg PO once daily (may be considered in first week after percutaneous coronary intervention)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.nejm.org/doi/full/10.1056/NEJMoa010746</string>
+				<key>Text</key>
+				<string>CURE 2001</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Arixtra</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://thrombosiscanada.ca/wp-content/uploads/2018/07/UFH-LMWH-Fonda-2018June15.pdf</string>
+					<key>Text</key>
+					<string>Fondaparinux PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Acute Coronary Syndrome</string>
+		<key>Medication Name</key>
+		<string>Fondaparinux</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>2.5 mg subcutaneous injection once daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.nejm.org/doi/full/10.1056/NEJMoa055443</string>
+				<key>Text</key>
+				<string>OASIS-5 2006</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Brilinta</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://thrombosiscanada.ca/wp-content/uploads/2019/03/Ticagrelor-Brilinta-25Mar19.pdf</string>
+					<key>Text</key>
+					<string>Ticagrelor PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Acute Coronary Syndrome</string>
+		<key>Medication Name</key>
+		<string>Ticagrelor</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>180 mg PO (loading dose)</string>
+			<string>90 mg PO twice daily (after loading dose)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/PLATO</string>
+				<key>Text</key>
+				<string>PLATO 2009</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Eliquis</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://thrombosiscanada.ca/wp-content/uploads/2018/09/Apixaban-Eliquis-10Sept2018.pdf</string>
+					<key>Text</key>
+					<string>Apixaban PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Acute Venous Thromboembolism (Deep Vein Thrombosis, Pulmonary Embolism)</string>
+		<key>Medication Name</key>
+		<string>Apixaban</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>10 mg PO twice daily (for 7 days)</string>
+			<string>5 mg PO twice daily (for 6 months after 7 days of initial therapy)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/AMPLIFY</string>
+				<key>Text</key>
+				<string>AMPLIFY 2013</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Pradaxa</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://thrombosiscanada.ca/wp-content/uploads/2019/02/Dabigatran-Pradaxa-20Feb19.pdf</string>
+					<key>Text</key>
+					<string>Dabigatran PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Acute Venous Thromboembolism (Deep Vein Thrombosis, Pulmonary Embolism)</string>
+		<key>Medication Name</key>
+		<string>Dabigatran</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>150 mg PO twice daily (after 5–10 days of parenteral anticoagulation)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/RE-COVER</string>
+				<key>Text</key>
+				<string>RE-COVER 2009</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Fragmin</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://thrombosiscanada.ca/wp-content/uploads/2018/07/UFH-LMWH-Fonda-2018June15.pdf</string>
+					<key>Text</key>
+					<string>Dalteparin PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Acute Venous Thromboembolism (Deep Vein Thrombosis, Pulmonary Embolism)</string>
+		<key>Medication Name</key>
+		<string>Dalteparin</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>200 units/kg subcutaneous injection once daily</string>
+			<string>100 units/kg subcutaneous injection twice daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/CLOT</string>
+				<key>Text</key>
+				<string>CLOT 2003</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Lixiana</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://thrombosiscanada.ca/wp-content/uploads/2018/06/Edoxaban-2018June15.pdf</string>
+					<key>Text</key>
+					<string>Edoxaban PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Acute Venous Thromboembolism (Deep Vein Thrombosis, Pulmonary Embolism)</string>
+		<key>Medication Name</key>
+		<string>Edoxaban</string>
+		<key>Note(s)</key>
+		<array>
+			<string>30 mg PO once daily (moderate renal impairment [CrCl 30–50 mL/min])</string>
+			<string>30 mg PO once daily (body weight ≤ 60 kg)</string>
+			<string>30 mg PO once daily (concomitant use of potent P-glycoprotein inhibitors [e.g. erythromycin, cyclosporine, dronedarone, quinidine, or ketoconazole])</string>
+		</array>
+		<key>Prescription Guide</key>
+		<array>
+			<string>60 mg PO once daily (after 5 days of parenteral anticoagulation)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.nejm.org/doi/full/10.1056/nejmoa1306638</string>
+				<key>Text</key>
+				<string>Hokusai VTE 2013</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Lovenox</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://thrombosiscanada.ca/wp-content/uploads/2018/07/UFH-LMWH-Fonda-2018June15.pdf</string>
+					<key>Text</key>
+					<string>Enoxaparin PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Acute Venous Thromboembolism (Deep Vein Thrombosis, Pulmonary Embolism)</string>
+		<key>Medication Name</key>
+		<string>Enoxaparin</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>1.5 mg/kg subcutaneous injection once daily</string>
+			<string>1 mg/kg subcutaneous injection twice daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array/>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Arixtra</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://thrombosiscanada.ca/wp-content/uploads/2018/07/UFH-LMWH-Fonda-2018June15.pdf</string>
+					<key>Text</key>
+					<string>Fondaparinux PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Acute Venous Thromboembolism (Deep Vein Thrombosis, Pulmonary Embolism)</string>
+		<key>Medication Name</key>
+		<string>Fondaparinux</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>5 mg subcutaneous injection once daily (if &lt; 50kg)</string>
+			<string>7.5 mg subcutaneous injection once daily (if 50–100 kg)</string>
+			<string>10 mg subcutaneous injection once daily (if &gt; 100kg)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array/>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Fraxiparine</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://thrombosiscanada.ca/wp-content/uploads/2018/07/UFH-LMWH-Fonda-2018June15.pdf</string>
+					<key>Text</key>
+					<string>Nadroparin PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Acute Venous Thromboembolism (Deep Vein Thrombosis, Pulmonary Embolism)</string>
+		<key>Medication Name</key>
+		<string>Nadroparin</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>171 units/kg subcutaneous injection once daily</string>
+			<string>86 units/kg subcutaneous injection twice daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array/>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Xarelto</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://thrombosiscanada.ca/wp-content/uploads/2019/02/Rivaroxaban-Xarelto15Jan2019.pdf</string>
+					<key>Text</key>
+					<string>Rivaroxaban PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Acute Venous Thromboembolism (Deep Vein Thrombosis, Pulmonary Embolism)</string>
+		<key>Medication Name</key>
+		<string>Rivaroxaban</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>15 mg PO twice daily (first 3 weeks)</string>
+			<string>20 mg PO once daily (after 3 weeks and maintain for 6 months)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.nejm.org/doi/full/10.1056/NEJMoa1007903</string>
+				<key>Text</key>
+				<string>EINSTEIN 2010</string>
+			</dict>
+			<dict>
+				<key>Link</key>
+				<string>https://www.nejm.org/doi/full/10.1056/nejmoa1113572</string>
+				<key>Text</key>
+				<string>EINSTEIN-PE 2012</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Innohep</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://thrombosiscanada.ca/wp-content/uploads/2018/07/UFH-LMWH-Fonda-2018June15.pdf</string>
+					<key>Text</key>
+					<string>Tinzaparin PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Acute Venous Thromboembolism (Deep Vein Thrombosis, Pulmonary Embolism)</string>
+		<key>Medication Name</key>
+		<string>Tinzaparin</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>175 units/kg subcutaneous injection once daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array/>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string></string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://thrombosiscanada.ca/wp-content/uploads/2018/07/UFH-LMWH-Fonda-2018June15.pdf</string>
+					<key>Text</key>
+					<string>Heparin PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Acute Venous Thromboembolism (Deep Vein Thrombosis, Pulmonary Embolism)</string>
+		<key>Medication Name</key>
+		<string>Unfractionated Heparin</string>
+		<key>Note(s)</key>
+		<array>
+			<string>333 units/kg subcutaneous injection (for non-hospitalized patients [initial])</string>
+			<string>250 units/kg subcutaneous injection every 12 hours (for non-hospitalized patients [maintenance])</string>
+		</array>
+		<key>Prescription Guide</key>
+		<array>
+			<string>5,000 units IV (initial bolus)</string>
+			<string>80 units/kg IV (initial bolus)</string>
+			<string>20 units/kg/hr IV (adjusted to maintain therapeutic aPTT after bolus)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array/>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Eliquis</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://thrombosiscanada.ca/wp-content/uploads/2018/09/Apixaban-Eliquis-10Sept2018.pdf</string>
+					<key>Text</key>
+					<string>Apixaban PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Atrial Fibrillation</string>
+		<key>Medication Name</key>
+		<string>Apixaban</string>
+		<key>Note(s)</key>
+		<array>
+			<string>2.5 mg PO twice daily (if at least two of the following: serum creatinine ≥ 133 µmol/L, age ≥ 80 years, or body weight ≤ 60 kg)</string>
+		</array>
+		<key>Prescription Guide</key>
+		<array>
+			<string>5 mg PO twice daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/ARISTOTLE</string>
+				<key>Text</key>
+				<string>ARISTOTLE 2011</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Pradaxa</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://thrombosiscanada.ca/wp-content/uploads/2019/02/Dabigatran-Pradaxa-20Feb19.pdf</string>
+					<key>Text</key>
+					<string>Dabigatran PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Atrial Fibrillation</string>
+		<key>Medication Name</key>
+		<string>Dabigatran</string>
+		<key>Note(s)</key>
+		<array>
+			<string>Age ≥ 80: 110 mg PO twice daily.</string>
+			<string>Age ≥ 75 and ≥ 1 Risk Factor: 110 mg PO twice daily (risk factors for bleeding: i.e., coagulation disorder, thrombocytopenia, functional platelet defect or recent bleed or invasive procedure, moderate renal impairment with CrCl 30–50 mL/min or co-medication with NSAIDS, antiplatelet agents, selective serotonin re-uptake inhibitors, selective serotonin norepinephrine re-uptake inhibitors or P-gp inhibitors).</string>
+		</array>
+		<key>Prescription Guide</key>
+		<array>
+			<string>150 mg PO twice daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/RE-LY</string>
+				<key>Text</key>
+				<string>RE-LY 2009</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Lixiana</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://thrombosiscanada.ca/wp-content/uploads/2018/06/Edoxaban-2018June15.pdf</string>
+					<key>Text</key>
+					<string>Edoxaban PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Atrial Fibrillation</string>
+		<key>Medication Name</key>
+		<string>Edoxaban</string>
+		<key>Note(s)</key>
+		<array>
+			<string>30 mg PO once daily (moderate renal impairment [CrCl 30–50 mL/min])</string>
+			<string>30 mg PO once daily (body weight ≤ 60 kg)</string>
+			<string>30 mg PO once daily (concomitant use of potent P-glycoprotein inhibitors [e.g. erythromycin, cyclosporine, dronedarone, quinidine, or ketoconazole])</string>
+		</array>
+		<key>Prescription Guide</key>
+		<array>
+			<string>60 mg PO once daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/ENGAGE_AF-TIMI_48</string>
+				<key>Text</key>
+				<string>ENGAGE AF-TIMI 48 2013</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Xarelto</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://thrombosiscanada.ca/wp-content/uploads/2019/02/Rivaroxaban-Xarelto15Jan2019.pdf</string>
+					<key>Text</key>
+					<string>Rivaroxaban PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Atrial Fibrillation</string>
+		<key>Medication Name</key>
+		<string>Rivaroxaban</string>
+		<key>Note(s)</key>
+		<array>
+			<string>15 mg PO once daily (CrCl 30–49 mL/min)</string>
+		</array>
+		<key>Prescription Guide</key>
+		<array>
+			<string>20 mg PO once daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/ROCKET_AF</string>
+				<key>Text</key>
+				<string>ROCKET AF 2011</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Coumadin</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://thrombosiscanada.ca/wp-content/uploads/2018/04/Warfarin-2018Apr10.pdf"</string>
+					<key>Text</key>
+					<string>Warfarin PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Atrial Fibrillation</string>
+		<key>Medication Name</key>
+		<string>Warfarin</string>
+		<key>Note(s)</key>
+		<array>
+			<string>1–2 mg PO once daily (frail, underweight or of Asian descent [initial dose])</string>
+		</array>
+		<key>Prescription Guide</key>
+		<array>
+			<string>5 mg PO once daily (initial dose)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array/>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Plavix</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://thrombosiscanada.ca/wp-content/uploads/2019/01/Clopidogrel-2018Sep10.pdf</string>
+					<key>Text</key>
+					<string>Clopidogrel PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Coronary Artery Disease</string>
+		<key>Medication Name</key>
+		<string>Clopidogrel</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>75 mg PO once daily (beyond 1 year)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array/>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Brilinta</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://thrombosiscanada.ca/wp-content/uploads/2019/03/Ticagrelor-Brilinta-25Mar19.pdf</string>
+					<key>Text</key>
+					<string>Ticagrelor PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Coronary Artery Disease</string>
+		<key>Medication Name</key>
+		<string>Ticagrelor</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>60 mg PO twice daily (beyond 1 year if no history of major bleeding and low risk of major bleeding)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.nejm.org/doi/full/10.1056/nejmoa1500857</string>
+				<key>Text</key>
+				<string>PEGASUS-TIMI 54 2015</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Nesina</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Nasim Zamir</string>
+			<string>Kevin John Um</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2018 DC.jpg</string>
+				<string>https://www.canadianjournalofdiabetes.com/article/S1499-2671(17)30845-6/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://pdf.hres.ca/dpd_pm/00034406.PDF</string>
+					<key>Text</key>
+					<string>Alogliptin Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Diabetes</string>
+		<key>Medication Name</key>
+		<string>Alogliptin</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>25 mg PO once daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://clinicaltrials.gov/ct2/show/NCT00856284</string>
+				<key>Text</key>
+				<string>ENDURE</string>
+			</dict>
+			<dict>
+				<key>Link</key>
+				<string>https://www.nejm.org/doi/full/10.1056/nejmoa1305889</string>
+				<key>Text</key>
+				<string>EXAMINE 2013</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Invokana</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Nasim Zamir</string>
+			<string>Kevin John Um</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2018 DC.jpg</string>
+				<string>https://www.canadianjournalofdiabetes.com/article/S1499-2671(17)30845-6/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://guidelines.diabetes.ca/reduce-complications/medication-sheets</string>
+					<key>Text</key>
+					<string>Diabetes Canada Medication Sheets</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://https://www.janssen.com/canada/sites/www_janssen_com_canada/files/prod_files/live/invokana_cpm.pdf</string>
+					<key>Text</key>
+					<string>Canagliflozin Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Diabetes</string>
+		<key>Medication Name</key>
+		<string>Canagliflozin</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>100–300 mg PO once daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>http://www.nejm.org/doi/full/10.1056/NEJMoa1611925</string>
+				<key>Text</key>
+				<string>CANVAS 2017</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Forxiga</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Nasim Zamir</string>
+			<string>Kevin John Um</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2018 DC.jpg</string>
+				<string>https://www.canadianjournalofdiabetes.com/article/S1499-2671(17)30845-6/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://guidelines.diabetes.ca/reduce-complications/medication-sheets</string>
+					<key>Text</key>
+					<string>Diabetes Canada Medication Sheets</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://www.astrazeneca.ca/content/dam/az-ca/downloads/productinformation/forxiga-product%20monograph-en.pdf</string>
+					<key>Text</key>
+					<string>Dapagliflozin Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Diabetes</string>
+		<key>Medication Name</key>
+		<string>Dapagliflozin</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>5–10 mg PO once daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.nejm.org/doi/full/10.1056/NEJMoa1812389</string>
+				<key>Text</key>
+				<string>DECLARE-TIMI 58 2019</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Trulicity</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Nasim Zamir</string>
+			<string>Kevin John Um</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2018 DC.jpg</string>
+				<string>https://www.canadianjournalofdiabetes.com/article/S1499-2671(17)30845-6/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://pi.lilly.com/ca/trulicity-ca-pm.pdf</string>
+					<key>Text</key>
+					<string>Dulaglutide Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Diabetes</string>
+		<key>Medication Name</key>
+		<string>Dulaglutide</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>0.75 mg subcutaneous injection once weekly (initial dose)</string>
+			<string>1.5 mg subcutaneous injection once weekly (if needed)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)31149-3/fulltext</string>
+				<key>Text</key>
+				<string>REWIND 2019</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Jardiance</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Nasim Zamir</string>
+			<string>Kevin John Um</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2018 DC.jpg</string>
+				<string>https://www.canadianjournalofdiabetes.com/article/S1499-2671(17)30845-6/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://guidelines.diabetes.ca/reduce-complications/medication-sheets</string>
+					<key>Text</key>
+					<string>Diabetes Canada Medication Sheets</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://www.boehringer-ingelheim.ca/sites/ca/files/documents/jardiancepmen.pdf</string>
+					<key>Text</key>
+					<string>Empagliflozin Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Diabetes</string>
+		<key>Medication Name</key>
+		<string>Empagliflozin</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>10–25 mg PO once daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/EMPA-REG_OUTCOME</string>
+				<key>Text</key>
+				<string>EMPA-REG OUTCOME 2015</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Byetta</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Nasim Zamir</string>
+			<string>Kevin John Um</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2018 DC.jpg</string>
+				<string>https://www.canadianjournalofdiabetes.com/article/S1499-2671(17)30845-6/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://guidelines.diabetes.ca/reduce-complications/medication-sheets</string>
+					<key>Text</key>
+					<string>Diabetes Canada Medication Sheets</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://www.astrazeneca.ca/content/dam/az-ca/downloads/productinformation/BYETTA%20-%20Product-Monograph.pdf</string>
+					<key>Text</key>
+					<string>Exenatide Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Diabetes</string>
+		<key>Medication Name</key>
+		<string>Exenatide</string>
+		<key>Note(s)</key>
+		<array>
+			<string>Doses are given within 60 minutes of a meal.</string>
+		</array>
+		<key>Prescription Guide</key>
+		<array>
+			<string>5–10 μg subcutaneous injection twice daily</string>
+			<string>Start dose: 5 μg subcutaneous twice daily (for 1 month), then increase to 10 μg subcutaneous twice daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>http://www.nejm.org/doi/full/10.1056/NEJMoa1612917</string>
+				<key>Text</key>
+				<string>EXSCEL 2017</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Diamicron</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Nasim Zamir</string>
+			<string>Kevin John Um</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2018 DC.jpg</string>
+				<string>https://www.canadianjournalofdiabetes.com/article/S1499-2671(17)30845-6/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://guidelines.diabetes.ca/reduce-complications/medication-sheets</string>
+					<key>Text</key>
+					<string>Diabetes Canada Medication Sheets</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://pdf.hres.ca/dpd_pm/00038817.PDF</string>
+					<key>Text</key>
+					<string>Gliclazide Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Diabetes</string>
+		<key>Medication Name</key>
+		<string>Gliclazide</string>
+		<key>Note(s)</key>
+		<array>
+			<string>Take at or before meals at the same time each day.</string>
+		</array>
+		<key>Prescription Guide</key>
+		<array>
+			<string>80–320 mg PO in single or divided doses (e.g., 80 mg PO twice daily)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array/>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Diamicron MR</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Nasim Zamir</string>
+			<string>Kevin John Um</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2018 DC.jpg</string>
+				<string>https://www.canadianjournalofdiabetes.com/article/S1499-2671(17)30845-6/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://guidelines.diabetes.ca/reduce-complications/medication-sheets</string>
+					<key>Text</key>
+					<string>Diabetes Canada Medication Sheets</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://www.servier.ca/sites/default/files/webform/products/EN-%20Diamicron%20MR%20PM_%20July%2013%2C%202016.pdf?ts=1537244353</string>
+					<key>Text</key>
+					<string>Gliclazide MR Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Diabetes</string>
+		<key>Medication Name</key>
+		<string>Gliclazide MR</string>
+		<key>Note(s)</key>
+		<array>
+			<string>Take with breakfast or first main meal of the day.</string>
+		</array>
+		<key>Prescription Guide</key>
+		<array>
+			<string>30–120 mg PO once daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0082880</string>
+				<key>Text</key>
+				<string>Systematic Review and Meta-Analysis 2014</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Amaryl</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Nasim Zamir</string>
+			<string>Kevin John Um</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2018 DC.jpg</string>
+				<string>https://www.canadianjournalofdiabetes.com/article/S1499-2671(17)30845-6/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://guidelines.diabetes.ca/reduce-complications/medication-sheets</string>
+					<key>Text</key>
+					<string>Diabetes Canada Medication Sheets</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://products.sanofi.ca/en/amaryl.pdf</string>
+					<key>Text</key>
+					<string>Glimepiride Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Diabetes</string>
+		<key>Medication Name</key>
+		<string>Glimepiride</string>
+		<key>Note(s)</key>
+		<array>
+			<string>Take with breakfast or first main meal of the day.</string>
+		</array>
+		<key>Prescription Guide</key>
+		<array>
+			<string>1–8 mg PO once daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>http://care.diabetesjournals.org/content/32/1/84.short</string>
+				<key>Text</key>
+				<string>LEAD-2 2009</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>DiaBeta</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Nasim Zamir</string>
+			<string>Kevin John Um</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2018 DC.jpg</string>
+				<string>https://www.canadianjournalofdiabetes.com/article/S1499-2671(17)30845-6/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://guidelines.diabetes.ca/reduce-complications/medication-sheets</string>
+					<key>Text</key>
+					<string>Diabetes Canada Medication Sheets</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://products.sanofi.ca/en/diabeta.pdf</string>
+					<key>Text</key>
+					<string>Glyburide Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Diabetes</string>
+		<key>Medication Name</key>
+		<string>Glyburide</string>
+		<key>Note(s)</key>
+		<array>
+			<string>Take at or before meals at the same time each day.</string>
+		</array>
+		<key>Prescription Guide</key>
+		<array>
+			<string>2.5–20 mg PO in single or divided doses (e.g., 5 mg PO once daily)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array/>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Trajenta</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Nasim Zamir</string>
+			<string>Kevin John Um</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2018 DC.jpg</string>
+				<string>https://www.canadianjournalofdiabetes.com/article/S1499-2671(17)30845-6/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://guidelines.diabetes.ca/reduce-complications/medication-sheets</string>
+					<key>Text</key>
+					<string>Diabetes Canada Medication Sheets</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://www.boehringer-ingelheim.ca/sites/ca/files/documents/trajentapmen.pdf</string>
+					<key>Text</key>
+					<string>Linagliptin Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Diabetes</string>
+		<key>Medication Name</key>
+		<string>Linagliptin</string>
+		<key>Note(s)</key>
+		<array>
+			<string>Doses are typically given once daily (twice daily when combined with metformin).</string>
+		</array>
+		<key>Prescription Guide</key>
+		<array>
+			<string>5 mg PO in single or divided doses daily with combination product (e.g., 5 mg PO daily)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://clinicaltrials.gov/ct2/show/NCT00622284</string>
+				<key>Text</key>
+				<string>NCT00622284</string>
+			</dict>
+			<dict>
+				<key>Link</key>
+				<string>https://clinicaltrials.gov/ct2/show/NCT00819091</string>
+				<key>Text</key>
+				<string>NCT00819091</string>
+			</dict>
+			<dict>
+				<key>Link</key>
+				<string>https://clinicaltrials.gov/ct2/show/NCT00602472</string>
+				<key>Text</key>
+				<string>NCT00602472</string>
+			</dict>
+			<dict>
+				<key>Link</key>
+				<string>https://clinicaltrials.gov/ct2/show/NCT00736099</string>
+				<key>Text</key>
+				<string>NCT00736099</string>
+			</dict>
+			<dict>
+				<key>Link</key>
+				<string>https://clinicaltrials.gov/ct2/show/NCT00621140</string>
+				<key>Text</key>
+				<string>NCT00621140</string>
+			</dict>
+			<dict>
+				<key>Link</key>
+				<string>https://clinicaltrials.gov/ct2/show/NCT00740051</string>
+				<key>Text</key>
+				<string>NCT00740051</string>
+			</dict>
+			<dict>
+				<key>Link</key>
+				<string>https://clinicaltrials.gov/ct2/show/NCT00601250</string>
+				<key>Text</key>
+				<string>NCT00601250</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Victoza</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Nasim Zamir</string>
+			<string>Kevin John Um</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2018 DC.jpg</string>
+				<string>https://www.canadianjournalofdiabetes.com/article/S1499-2671(17)30845-6/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://guidelines.diabetes.ca/reduce-complications/medication-sheets</string>
+					<key>Text</key>
+					<string>Diabetes Canada Medication Sheets</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://www.novonordisk.ca/content/dam/Canada/AFFILIATE/www-novonordisk-ca/OurProducts/PDF/victoza-product-monograph.pdf</string>
+					<key>Text</key>
+					<string>Liraglutide Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Diabetes</string>
+		<key>Medication Name</key>
+		<string>Liraglutide</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>0.6–1.8 mg subcutaneous injection once daily</string>
+			<string>Start dose: 0.6 mg subcutaneous once daily (for 1 week), then increase to 1.2 mg subcutaneous once daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/LEADER</string>
+				<key>Text</key>
+				<string>LEADER 2016</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Adlyxin</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Nasim Zamir</string>
+			<string>Kevin John Um</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2018 DC.jpg</string>
+				<string>https://www.canadianjournalofdiabetes.com/article/S1499-2671(17)30845-6/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://products.sanofi.ca/en/adlyxine.pdf</string>
+					<key>Text</key>
+					<string>Lixisenatide Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Diabetes</string>
+		<key>Medication Name</key>
+		<string>Lixisenatide</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>10 mg subcutaneous injection once daily (for 14 days)</string>
+			<string>20 mg subcutaneous injection once daily (starting on day 15; after 14 days)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>http://www.nejm.org/doi/full/10.1056/NEJMoa1509225</string>
+				<key>Text</key>
+				<string>ELIXA 2013</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Glucophage</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Nasim Zamir</string>
+			<string>Kevin John Um</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2018 DC.jpg</string>
+				<string>https://www.canadianjournalofdiabetes.com/article/S1499-2671(17)30845-6/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://guidelines.diabetes.ca/reduce-complications/medication-sheets</string>
+					<key>Text</key>
+					<string>Diabetes Canada Medication Sheets</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://products.sanofi.ca/en/glucophage.pdf</string>
+					<key>Text</key>
+					<string>Metformin Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Diabetes</string>
+		<key>Medication Name</key>
+		<string>Metformin</string>
+		<key>Note(s)</key>
+		<array>
+			<string>eGFR &lt; 45 mL/min: Consider stopping or decreasing dose by 50%.</string>
+			<string>Monitor eGFR every 3 months.</string>
+		</array>
+		<key>Prescription Guide</key>
+		<array>
+			<string>500–2550 mg PO in single or divided doses daily (e.g., 500 mg PO daily; 250 mg PO twice daily; 1000 mg PO twice daily)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://clinicaltrials.gov/ct2/show/NCT00457002</string>
+				<key>Text</key>
+				<string>ADOPT</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Starlix</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Nasim Zamir</string>
+			<string>Kevin John Um</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2018 DC.jpg</string>
+				<string>https://www.canadianjournalofdiabetes.com/article/S1499-2671(17)30845-6/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://guidelines.diabetes.ca/reduce-complications/medication-sheets</string>
+					<key>Text</key>
+					<string>Diabetes Canada Medication Sheets</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://www.novartis.ca/sites/www.novartis.ca/files/starlix_scrip_e.pdf</string>
+					<key>Text</key>
+					<string>Nateglinide Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Diabetes</string>
+		<key>Medication Name</key>
+		<string>Nateglinide</string>
+		<key>Note(s)</key>
+		<array>
+			<string>Doses are typically given before meals. Skip a dose if a meal is skipped; take an extra dose for an extra meal.</string>
+		</array>
+		<key>Prescription Guide</key>
+		<array>
+			<string>60–120 mg PO three times daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array/>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Xenical</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Nasim Zamir</string>
+			<string>Kevin John Um</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2018 DC.jpg</string>
+				<string>https://www.canadianjournalofdiabetes.com/article/S1499-2671(17)30845-6/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://www.rochecanada.com/PMs/Xenical/Xenical_PM_E.pdf</string>
+					<key>Text</key>
+					<string>Orlistat Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Diabetes</string>
+		<key>Medication Name</key>
+		<string>Orlistat</string>
+		<key>Note(s)</key>
+		<array>
+			<string>Take during or up to 1 hour after fat-containing meals.</string>
+		</array>
+		<key>Prescription Guide</key>
+		<array>
+			<string>120 mg PO three times daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array/>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Actos</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Nasim Zamir</string>
+			<string>Kevin John Um</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2018 DC.jpg</string>
+				<string>https://www.canadianjournalofdiabetes.com/article/S1499-2671(17)30845-6/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://www.takeda.com/siteassets/en-ca/home/what-we-do/our-medicines/product-monographs/actos/actos-pm-18jan2018-clean_en.pdf</string>
+					<key>Text</key>
+					<string>Pioglitazone Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Diabetes</string>
+		<key>Medication Name</key>
+		<string>Pioglitazone</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>15–30 mg PO once daily</string>
+			<string>45 mg PO once daily (maximum)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/PROactive</string>
+				<key>Text</key>
+				<string>PROactive 2005</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Gluconorm</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Nasim Zamir</string>
+			<string>Kevin John Um</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2018 DC.jpg</string>
+				<string>https://www.canadianjournalofdiabetes.com/article/S1499-2671(17)30845-6/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://guidelines.diabetes.ca/reduce-complications/medication-sheets</string>
+					<key>Text</key>
+					<string>Diabetes Canada Medication Sheets</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://www.novonordisk.ca/content/dam/Canada/AFFILIATE/www-novonordisk-ca/OurProducts/PDF/gluconorm-product-monograph-english.pdf</string>
+					<key>Text</key>
+					<string>Repaglinide Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Diabetes</string>
+		<key>Medication Name</key>
+		<string>Repaglinide</string>
+		<key>Note(s)</key>
+		<array>
+			<string>Doses are typically given before meals. Skip a dose if a meal is skipped; take an extra dose for an extra meal.</string>
+		</array>
+		<key>Prescription Guide</key>
+		<array>
+			<string>0.5–4 mg PO three times daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array/>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Avandia</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Nasim Zamir</string>
+			<string>Kevin John Um</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2018 DC.jpg</string>
+				<string>https://www.canadianjournalofdiabetes.com/article/S1499-2671(17)30845-6/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://ca.gsk.com/media/522034/avandia.pdf</string>
+					<key>Text</key>
+					<string>Rosiglitazone Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Diabetes</string>
+		<key>Medication Name</key>
+		<string>Rosiglitazone</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>4 mg PO once daily (initial)</string>
+			<string>2 mg PO twice daily (initial)</string>
+			<string>8 mg PO daily (maximum)</string>
+			<string>4 mg PO daily (maximum, if also being prescribed a sulfonylurea)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/RECORD</string>
+				<key>Text</key>
+				<string>RECORD 2009</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Onglyza</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Nasim Zamir</string>
+			<string>Kevin John Um</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2018 DC.jpg</string>
+				<string>https://www.canadianjournalofdiabetes.com/article/S1499-2671(17)30845-6/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://guidelines.diabetes.ca/reduce-complications/medication-sheets</string>
+					<key>Text</key>
+					<string>Diabetes Canada Medication Sheets</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://www.astrazeneca.ca/content/dam/az-ca/downloads/productinformation/onglyza-product-monograph-en.pdf</string>
+					<key>Text</key>
+					<string>Saxagliptin Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Diabetes</string>
+		<key>Medication Name</key>
+		<string>Saxagliptin</string>
+		<key>Note(s)</key>
+		<array>
+			<string>Doses are typically given once daily (twice daily when combined with metformin).</string>
+			<string>CrCl &lt; 50 mL/min: 2.5 mg PO once daily.</string>
+		</array>
+		<key>Prescription Guide</key>
+		<array>
+			<string>2.5–5 mg PO in single or divided doses daily with combination product (e.g., 5 mg PO daily)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.nejm.org/doi/full/10.1056/nejmoa1307684</string>
+				<key>Text</key>
+				<string>SAVOR-TIMI 53</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Januvia</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Nasim Zamir</string>
+			<string>Kevin John Um</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2018 DC.jpg</string>
+				<string>https://www.canadianjournalofdiabetes.com/article/S1499-2671(17)30845-6/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://guidelines.diabetes.ca/reduce-complications/medication-sheets</string>
+					<key>Text</key>
+					<string>Diabetes Canada Medication Sheets</string>
+				</dict>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://www.merck.ca/static/pdf/JANUVIA-PM_E.pdf</string>
+					<key>Text</key>
+					<string>Sitagliptin Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Diabetes</string>
+		<key>Medication Name</key>
+		<string>Sitagliptin</string>
+		<key>Note(s)</key>
+		<array>
+			<string>Doses are typically given once daily (twice daily when combined with metformin).</string>
+			<string>CrCl between 30 and 50 mL/min: 50 mg PO once daily.</string>
+			<string>CrCL &lt; 30 mL/min: 25 mg PO once daily.</string>
+			<string>Dialysis: 25 mg PO once daily.</string>
+		</array>
+		<key>Prescription Guide</key>
+		<array>
+			<string>25–100 mg PO in single or divided doses daily with combination product (e.g., 25 mg PO daily)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/TECOS</string>
+				<key>Text</key>
+				<string>TECOS 2015</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Eliquis</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://thrombosiscanada.ca/wp-content/uploads/2018/09/Apixaban-Eliquis-10Sept2018.pdf</string>
+					<key>Text</key>
+					<string>Apixaban PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Extended Venous Thromboprophylaxis (Deep Vein Thrombosis, Pulmonary Embolism)</string>
+		<key>Medication Name</key>
+		<string>Apixaban</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>2.5 mg PO twice daily (after 6 months of 5 mg PO twice daily)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/AMPLIFY-EXT</string>
+				<key>Text</key>
+				<string>AMPLIFY-EXT 2013</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Lixiana</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://thrombosiscanada.ca/wp-content/uploads/2018/06/Edoxaban-2018June15.pdf</string>
+					<key>Text</key>
+					<string>Edoxaban PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Extended Venous Thromboprophylaxis (Deep Vein Thrombosis, Pulmonary Embolism)</string>
+		<key>Medication Name</key>
+		<string>Edoxaban</string>
+		<key>Note(s)</key>
+		<array>
+			<string>30 mg PO once daily (moderate renal impairment [CrCl 30–50 mL/min])</string>
+			<string>30 mg PO once daily (body weight ≤ 60 kg)</string>
+			<string>30 mg PO once daily (concomitant use of potent P-glycoprotein inhibitors [e.g. erythromycin, cyclosporine, dronedarone, quinidine, or ketoconazole])</string>
+		</array>
+		<key>Prescription Guide</key>
+		<array>
+			<string>60 mg PO once daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.thelancet.com/journals/lanhae/article/PIIS2352-3026(16)00023-5/fulltext</string>
+				<key>Text</key>
+				<string>Hokusai VTE 2016</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Xarelto</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://thrombosiscanada.ca/wp-content/uploads/2019/02/Rivaroxaban-Xarelto15Jan2019.pdf</string>
+					<key>Text</key>
+					<string>Rivaroxaban PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Extended Venous Thromboprophylaxis (Deep Vein Thrombosis, Pulmonary Embolism)</string>
+		<key>Medication Name</key>
+		<string>Rivaroxaban</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>10 mg PO once daily (after 6 months of 20 mg PO once daily)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/EINSTEIN_CHOICE</string>
+				<key>Text</key>
+				<string>EINSTEIN CHOICE 2017</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Zebeta
+Concor</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2017 CCS Heart Failure.jpg</string>
+				<string>https://www.onlinecjc.ca/article/S0828-282X(17)30973-X/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://www.accessdata.fda.gov/drugsatfda_docs/label/2007/019982s014lbl.pdf</string>
+					<key>Text</key>
+					<string>Bisoprolol Monograph (FDA)</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Heart Failure</string>
+		<key>Medication Name</key>
+		<string>Bisoprolol</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>Start dose: 1.25 mg PO daily</string>
+			<string>Target dose: 10 mg PO daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/CIBIS-II</string>
+				<key>Text</key>
+				<string>CIBIS-II 1999</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-01T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Atacand
+Coreg</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2017 CCS Heart Failure.jpg</string>
+				<string>https://www.onlinecjc.ca/article/S0828-282X(17)30973-X/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://www.astrazeneca.ca/content/dam/az-ca/downloads/productinformation/ATACAND%20-%20Product-Monograph_001.pdf</string>
+					<key>Text</key>
+					<string>Candesartan Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Heart Failure</string>
+		<key>Medication Name</key>
+		<string>Candesartan</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>Start dose: 4–8 mg PO daily</string>
+			<string>Target dose: 32 mg PO daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/CHARM-Alternative</string>
+				<key>Text</key>
+				<string>CHARM-Alternative 2003</string>
+			</dict>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/CHARM-Preserved</string>
+				<key>Text</key>
+				<string>CHARM-Preserved 2003</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-01T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Coreg</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2017 CCS Heart Failure.jpg</string>
+				<string>https://www.onlinecjc.ca/article/S0828-282X(17)30973-X/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://www.accessdata.fda.gov/drugsatfda_docs/label/2005/020297s013lbl.pdf</string>
+					<key>Text</key>
+					<string>Carvedilol Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Heart Failure</string>
+		<key>Medication Name</key>
+		<string>Carvedilol</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>Start dose: 3.125 mg PO twice daily</string>
+			<string>Target dose: 25 mg PO twice daily; 50 mg PO twice daily (&gt; 85 kg)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/CAPRICORN</string>
+				<key>Text</key>
+				<string>CAPRICORN 2001</string>
+			</dict>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/COPERNICUS</string>
+				<key>Text</key>
+				<string>COPERNICUS 2002</string>
+			</dict>
+			<dict>
+				<key>Link</key>
+				<string>https://www.nejm.org/doi/full/10.1056/NEJM199605233342101</string>
+				<key>Text</key>
+				<string>Packer 1996</string>
+			</dict>
+			<dict>
+				<key>Link</key>
+				<string>https://www.nejm.org/doi/full/10.1056/NEJM200105313442201</string>
+				<key>Text</key>
+				<string>Packer 2001 (COPERNICUS)</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-01T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Vasotec
+Renitec
+Enacard</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2017 CCS Heart Failure.jpg</string>
+				<string>https://www.onlinecjc.ca/article/S0828-282X(17)30973-X/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://www.sandoz.ca/sites/www.sandoz.ca/files/Enalapril_tab_PMe20160316.pdf</string>
+					<key>Text</key>
+					<string>Enalapril Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Heart Failure</string>
+		<key>Medication Name</key>
+		<string>Enalapril</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>Start dose: 1.25–2.5 mg PO twice daily</string>
+			<string>Target dose: 10 mg PO twice daily; 20 mg PO twice daily (NYHA class IV)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/CONSENSUS</string>
+				<key>Text</key>
+				<string>CONSENSUS 1987</string>
+			</dict>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/SOLVD</string>
+				<key>Text</key>
+				<string>SOLVD 1992</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-01T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Inspra</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2017 CCS Heart Failure.jpg</string>
+				<string>https://www.onlinecjc.ca/article/S0828-282X(17)30973-X/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://www.pfizer.ca/sites/g/files/g10050796/f/201710/INSPRA_E_non-annotated_PM_27Oct2016.pdf</string>
+					<key>Text</key>
+					<string>Eplerenone Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Heart Failure</string>
+		<key>Medication Name</key>
+		<string>Eplerenone</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>Start dose: 25 mg PO daily</string>
+			<string>Target dose: 50 mg PO daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/EMPHASIS-HF</string>
+				<key>Text</key>
+				<string>EMPHASIS-HF 2011</string>
+			</dict>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/EPHESUS</string>
+				<key>Text</key>
+				<string>EPHESUS 2003</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-01T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Apresoline
+BiDil</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2017 CCS Heart Failure.jpg</string>
+				<string>https://www.onlinecjc.ca/article/S0828-282X(17)30973-X/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://sterimaxinc.com/wp-content/uploads/2014/12/apresoline.pdf</string>
+					<key>Text</key>
+					<string>Hydralazine Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Heart Failure</string>
+		<key>Medication Name</key>
+		<string>Hydralazine</string>
+		<key>Note(s)</key>
+		<array>
+			<string>In combination with isosorbide dinitrate.</string>
+		</array>
+		<key>Prescription Guide</key>
+		<array>
+			<string>Start dose: 37.5 mg PO three times daily</string>
+			<string>Target dose: 75–100 mg PO three or four times daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/A-HeFT</string>
+				<key>Text</key>
+				<string>A-HeFT 2004</string>
+			</dict>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/V-HeFT</string>
+				<key>Text</key>
+				<string>V-HeFT 1986</string>
+			</dict>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/V-HeFT_II</string>
+				<key>Text</key>
+				<string>V-HeFT II 1991</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-01T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Isordil</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2017 CCS Heart Failure.jpg</string>
+				<string>https://www.onlinecjc.ca/article/S0828-282X(17)30973-X/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://pdf.hres.ca/dpd_pm/00043683.PDF</string>
+					<key>Text</key>
+					<string>Isosorbide Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Heart Failure</string>
+		<key>Medication Name</key>
+		<string>Isosorbide Dinitrate</string>
+		<key>Note(s)</key>
+		<array>
+			<string>In combination with hydralazine.</string>
+		</array>
+		<key>Prescription Guide</key>
+		<array>
+			<string>Start dose: 20 mg PO three times daily</string>
+			<string>Target dose: 40 mg PO three times daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/A-HeFT</string>
+				<key>Text</key>
+				<string>A-HeFT 2004</string>
+			</dict>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/V-HeFT</string>
+				<key>Text</key>
+				<string>V-HeFT 1986</string>
+			</dict>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/V-HeFT_II</string>
+				<key>Text</key>
+				<string>V-HeFT II 1991</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-01T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Corlanor
+Procoralan</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2017 CCS Heart Failure.jpg</string>
+				<string>https://www.onlinecjc.ca/article/S0828-282X(17)30973-X/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://pdf.hres.ca/dpd_pm/00037621.PDF</string>
+					<key>Text</key>
+					<string>Ivabradine Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Heart Failure</string>
+		<key>Medication Name</key>
+		<string>Ivabradine</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>Start dose: 2.5–5 mg PO twice daily</string>
+			<string>Target dose: 7.5 mg PO twice daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/SHIFT</string>
+				<key>Text</key>
+				<string>SHIFT 2010</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-01T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Prinivil
+Zestril
+</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2017 CCS Heart Failure.jpg</string>
+				<string>https://www.onlinecjc.ca/article/S0828-282X(17)30973-X/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://www.astrazeneca.ca/content/dam/az-ca/downloads/productinformation/zestril-product-monograph-en.pdf</string>
+					<key>Text</key>
+					<string>Lisinopril Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Heart Failure</string>
+		<key>Medication Name</key>
+		<string>Lisinopril</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>Start dose: 2.5–5 mg PO daily</string>
+			<string>Target dose: 20–35 mg PO daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.ahajournals.org/doi/full/10.1161/01.CIR.100.23.2312</string>
+				<key>Text</key>
+				<string>ATLAS 1999</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-01T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Metolar XR</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2017 CCS Heart Failure.jpg</string>
+				<string>https://www.onlinecjc.ca/article/S0828-282X(17)30973-X/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://www.accessdata.fda.gov/drugsatfda_docs/label/2006/019962s032lbl.pdf</string>
+					<key>Text</key>
+					<string>Metoprolol XR Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Heart Failure</string>
+		<key>Medication Name</key>
+		<string>Metoprolol CR/XL</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>Start dose: 12.5–25 mg PO daily</string>
+			<string>Target dose: 200 mg PO daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array/>
+		<key>Updated Date</key>
+		<date>2019-06-01T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Coversyl
+Coversum
+Preterax
+Aceon</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2017 CCS Heart Failure.jpg</string>
+				<string>https://www.onlinecjc.ca/article/S0828-282X(17)30973-X/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://pdf.hres.ca/dpd_pm/00044113.PDF</string>
+					<key>Text</key>
+					<string>Perindopril Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Heart Failure</string>
+		<key>Medication Name</key>
+		<string>Perindopril</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>Start dose: 2–4 mg PO daily</string>
+			<string>Target dose: 4–8mg PO daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://academic.oup.com/eurheartj/article/27/19/2338/2887480</string>
+				<key>Text</key>
+				<string>PEP-CHF 2006</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-01T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Altace</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2017 CCS Heart Failure.jpg</string>
+				<string>https://www.onlinecjc.ca/article/S0828-282X(17)30973-X/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://www.sandoz.ca/sites/www.sandoz.ca/files/Ramipril_Tab_PM_English_20151214.pdf</string>
+					<key>Text</key>
+					<string>Ramipril Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Heart Failure</string>
+		<key>Medication Name</key>
+		<string>Ramipril</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>Start dose: 1.25–2.5 mg PO twice daily</string>
+			<string>Target dose: 5 mg PO twice daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.thelancet.com/journals/lancet/article/PII0140-6736(93)92693-N/fulltext</string>
+				<key>Text</key>
+				<string>AIRE 1993</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-01T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Entresto
+Azmarda</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2017 CCS Heart Failure.jpg</string>
+				<string>https://www.onlinecjc.ca/article/S0828-282X(17)30973-X/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://www.novartis.ca/sites/www.novartis.ca/files/entresto_patient_e.pdf</string>
+					<key>Text</key>
+					<string>Sacubitril / Valsartan Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Heart Failure</string>
+		<key>Medication Name</key>
+		<string>Sacubitril / Valsartan</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>Start dose: 50–100 mg PO twice daily</string>
+			<string>Target dose: 200 mg PO twice daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/PARADIGM-HF</string>
+				<key>Text</key>
+				<string>PARADIGM-HF 2014</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-01T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Aldactone
+Spiractin
+Verospiron</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2017 CCS Heart Failure.jpg</string>
+				<string>https://www.onlinecjc.ca/article/S0828-282X(17)30973-X/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://pdf.hres.ca/dpd_pm/00025171.PDF</string>
+					<key>Text</key>
+					<string>Spironolactone Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Heart Failure</string>
+		<key>Medication Name</key>
+		<string>Spironolactone</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>Start dose: 12.5 mg PO daily</string>
+			<string>Target dose: 50 mg PO daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/RALES</string>
+				<key>Text</key>
+				<string>RALES 1999</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-01T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Mavik</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2017 CCS Heart Failure.jpg</string>
+				<string>https://www.onlinecjc.ca/article/S0828-282X(17)30973-X/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://pdf.hres.ca/dpd_pm/00045421.PDF</string>
+					<key>Text</key>
+					<string>Trandolapril Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Heart Failure</string>
+		<key>Medication Name</key>
+		<string>Trandolapril</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>Start dose: 1–2 mg PO daily</string>
+			<string>Target dose: 4 mg PO daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.nejm.org/doi/full/10.1056/NEJM199512213332503</string>
+				<key>Text</key>
+				<string>TRACE 1995</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-01T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Diovan</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2017 CCS Heart Failure.jpg</string>
+				<string>https://www.onlinecjc.ca/article/S0828-282X(17)30973-X/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://www.sandoz.ca/sites/www.sandoz.ca/files/Valsartan_HCT_TAB_Monograph.pdf</string>
+					<key>Text</key>
+					<string>Valsartan Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Heart Failure</string>
+		<key>Medication Name</key>
+		<string>Valsartan</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>Start dose: 40 mg PO twice daily</string>
+			<string>Target dose: 160 mg PO twice daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/Val-HeFT</string>
+				<key>Text</key>
+				<string>Val-HeFT 2001</string>
+			</dict>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/VALIANT</string>
+				<key>Text</key>
+				<string>VALIANT 2003</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-01T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Lasix</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>2017 CCS Heart Failure.jpg</string>
+				<string>https://www.onlinecjc.ca/article/S0828-282X(17)30973-X/fulltext</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://products.sanofi.ca/en/lasix.pdf</string>
+					<key>Text</key>
+					<string>Furosemide Monograph</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Heart Failure Exacerbation</string>
+		<key>Medication Name</key>
+		<string>Furosemide</string>
+		<key>Note(s)</key>
+		<array>
+			<string>No added benefit with continuous intravenous infusion versus intravenous boluses.</string>
+		</array>
+		<key>Prescription Guide</key>
+		<array>
+			<string>New-onset heart failure or no prior exposure to loop diuretics:</string>
+			<string>20–40 mg IV 2–3 times daily (if GFR ≥ 60)</string>
+			<string>20–80 mg IV 2–3 times daily (if GFR &lt; 60)</string>
+			<string>If on oral furosemide at home, give home oral dose intravenously (e.g., if home dose 40 mg PO twice daily, then 40 mg IV twice daily).</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.wikijournalclub.org/wiki/DOSE</string>
+				<key>Text</key>
+				<string>DOSE 2011</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-01T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Eliquis</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://thrombosiscanada.ca/wp-content/uploads/2018/09/Apixaban-Eliquis-10Sept2018.pdf</string>
+					<key>Text</key>
+					<string>Apixaban PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Knee or Hip Surgery</string>
+		<key>Medication Name</key>
+		<string>Apixaban</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>2.5 mg PO twice daily (start 12–14 hours after surgery and maintain for 14 or 35 days after knee or hip surgery, respectively)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.nejm.org/doi/full/10.1056/NEJMoa0810773</string>
+				<key>Text</key>
+				<string>ADVANCE-1 2009</string>
+			</dict>
+			<dict>
+				<key>Link</key>
+				<string>https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(09)62125-5/fulltext</string>
+				<key>Text</key>
+				<string>ADVANCE-2 2010</string>
+			</dict>
+			<dict>
+				<key>Link</key>
+				<string>https://www.nejm.org/doi/full/10.1056/NEJMoa1006885</string>
+				<key>Text</key>
+				<string>ADVANCE-3 2010</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Pradaxa</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://thrombosiscanada.ca/wp-content/uploads/2019/02/Dabigatran-Pradaxa-20Feb19.pdf</string>
+					<key>Text</key>
+					<string>Dabigatran PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Knee or Hip Surgery</string>
+		<key>Medication Name</key>
+		<string>Dabigatran</string>
+		<key>Note(s)</key>
+		<array>
+			<string>CrCl 30–50 mL/min: 75 mg PO (one dose 1–4 hours after surgery)</string>
+			<string>CrCl 30–50 mL/min: 150 mg PO once daily (start 1 day after surgery and maintain for at least 10 days and up to 35 days)</string>
+		</array>
+		<key>Prescription Guide</key>
+		<array>
+			<string>110 mg PO (one dose 1–4 hours after surgery)</string>
+			<string>220 mg PO once daily (start 1 day after surgery and maintain for 10–35 days)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(07)61445-7/fulltext</string>
+				<key>Text</key>
+				<string>RE-NOVATE 2007</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Xarelto</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://thrombosiscanada.ca/wp-content/uploads/2019/02/Rivaroxaban-Xarelto15Jan2019.pdf</string>
+					<key>Text</key>
+					<string>Rivaroxaban PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Knee or Hip Surgery</string>
+		<key>Medication Name</key>
+		<string>Rivaroxaban</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>10 mg PO once daily (start 6–8 hours after surgery and maintain for 14–30 days after knee or hip surgery)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.nejm.org/doi/full/10.1056/NEJMoa0800374</string>
+				<key>Text</key>
+				<string>RECORD1 2008</string>
+			</dict>
+			<dict>
+				<key>Link</key>
+				<string>https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(08)60880-6/fulltext</string>
+				<key>Text</key>
+				<string>RECORD2 2008</string>
+			</dict>
+			<dict>
+				<key>Link</key>
+				<string>https://www.nejm.org/doi/full/10.1056/nejmoa076016</string>
+				<key>Text</key>
+				<string>RECORD3 2008</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Fragmin</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://thrombosiscanada.ca/wp-content/uploads/2018/07/UFH-LMWH-Fonda-2018June15.pdf</string>
+					<key>Text</key>
+					<string>Dalteparin PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Non-ST-Elevation Myocardial Infarction</string>
+		<key>Medication Name</key>
+		<string>Dalteparin</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>100 units/kg subcutaneous injection twice daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>http://circ.ahajournals.org/content/96/1/61.long</string>
+				<key>Text</key>
+				<string>FRIC 1997</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Lovenox</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://thrombosiscanada.ca/wp-content/uploads/2018/07/UFH-LMWH-Fonda-2018June15.pdf</string>
+					<key>Text</key>
+					<string>Enoxaparin PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Non-ST-Elevation Myocardial Infarction</string>
+		<key>Medication Name</key>
+		<string>Enoxaparin</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>1 mg/kg subcutaneous injection twice daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array/>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Fraxiparine</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://thrombosiscanada.ca/wp-content/uploads/2018/07/UFH-LMWH-Fonda-2018June15.pdf</string>
+					<key>Text</key>
+					<string>Nadroparin PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Non-ST-Elevation Myocardial Infarction</string>
+		<key>Medication Name</key>
+		<string>Nadroparin</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>86 units/kg IV (one dose bolus)</string>
+			<string>85 units/kg IV twice daily (after intravenous bolus)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array/>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string></string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://thrombosiscanada.ca/wp-content/uploads/2018/07/UFH-LMWH-Fonda-2018June15.pdf</string>
+					<key>Text</key>
+					<string>Heparin PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Non-ST-Elevation Myocardial Infarction</string>
+		<key>Medication Name</key>
+		<string>Unfractionated Heparin</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>60–70 units/kg IV (initial bolus)</string>
+			<string>12–15 units/kg/hr IV (titrate to maintain therapeutic aPTT after bolus)</string>
+			<string>1,000 units/hr IV (maximum)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array/>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Lovenox</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://thrombosiscanada.ca/wp-content/uploads/2018/07/UFH-LMWH-Fonda-2018June15.pdf</string>
+					<key>Text</key>
+					<string>Enoxaparin PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>ST-Elevation Myocardial Infarction</string>
+		<key>Medication Name</key>
+		<string>Enoxaparin</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>30 mg IV (one dose)</string>
+			<string>1 mg/kg subcutaneous injection twice daily (after 1 intravenous dose)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array/>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string></string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://thrombosiscanada.ca/wp-content/uploads/2018/07/UFH-LMWH-Fonda-2018June15.pdf</string>
+					<key>Text</key>
+					<string>Heparin PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>ST-Elevation Myocardial Infarction</string>
+		<key>Medication Name</key>
+		<string>Unfractionated Heparin</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>60 units/kg IV (initial bolus; maximum 4,000 units)</string>
+			<string>12 units/kg/hr IV (adjusted to maintain therapeutic aPTT; maximum 1,000 units/hr)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array/>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Plavix</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>https://thrombosiscanada.ca/wp-content/uploads/2019/01/Clopidogrel-2018Sep10.pdf</string>
+					<key>Text</key>
+					<string>Clopidogrel PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Stroke Prophylaxis</string>
+		<key>Medication Name</key>
+		<string>Clopidogrel</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>75 mg PO once daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array/>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Fragmin</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://thrombosiscanada.ca/wp-content/uploads/2018/07/UFH-LMWH-Fonda-2018June15.pdf</string>
+					<key>Text</key>
+					<string>Dalteparin PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Unstable Angina, Intermediate or High Risk</string>
+		<key>Medication Name</key>
+		<string>Dalteparin</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>100 units/kg subcutaneous injection twice daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>http://circ.ahajournals.org/content/96/1/61.long</string>
+				<key>Text</key>
+				<string>FRIC 1997</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Lovenox</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://thrombosiscanada.ca/wp-content/uploads/2018/07/UFH-LMWH-Fonda-2018June15.pdf</string>
+					<key>Text</key>
+					<string>Enoxaparin PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Unstable Angina, Intermediate or High Risk</string>
+		<key>Medication Name</key>
+		<string>Enoxaparin</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>1 mg/kg subcutaneous injection twice daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array/>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Fraxiparine</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://thrombosiscanada.ca/wp-content/uploads/2018/07/UFH-LMWH-Fonda-2018June15.pdf</string>
+					<key>Text</key>
+					<string>Nadroparin PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Unstable Angina, Intermediate or High Risk</string>
+		<key>Medication Name</key>
+		<string>Nadroparin</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>86 units/kg IV (one dose bolus)</string>
+			<string>85 units/kg IV twice daily (after intravenous bolus)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array/>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string></string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://thrombosiscanada.ca/wp-content/uploads/2018/07/UFH-LMWH-Fonda-2018June15.pdf</string>
+					<key>Text</key>
+					<string>Heparin PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Unstable Angina, Intermediate or High Risk</string>
+		<key>Medication Name</key>
+		<string>Unfractionated Heparin</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>60–70 units/kg IV (initial bolus)</string>
+			<string>12–15 units/kg/hr IV (titrate to maintain therapeutic aPTT after bolus)</string>
+			<string>1,000 units/hr IV (maximum)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array/>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Fragmin</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://thrombosiscanada.ca/wp-content/uploads/2018/07/UFH-LMWH-Fonda-2018June15.pdf</string>
+					<key>Text</key>
+					<string>Dalteparin PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Venous Thromboprophylaxis (Deep Vein Thrombosis, Pulmonary Embolism)</string>
+		<key>Medication Name</key>
+		<string>Dalteparin</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>5,000 units subcutaneous injection once daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array>
+			<dict>
+				<key>Link</key>
+				<string>https://www.nejm.org/doi/full/10.1056/NEJMoa1014475</string>
+				<key>Text</key>
+				<string>PROTECT 2011</string>
+			</dict>
+		</array>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Lovenox</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://thrombosiscanada.ca/wp-content/uploads/2018/07/UFH-LMWH-Fonda-2018June15.pdf</string>
+					<key>Text</key>
+					<string>Enoxaparin PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Venous Thromboprophylaxis (Deep Vein Thrombosis, Pulmonary Embolism)</string>
+		<key>Medication Name</key>
+		<string>Enoxaparin</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>40 mg subcutaneous injection once daily</string>
+			<string>30 mg subcutaneous injection twice daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array/>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Arixtra</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://thrombosiscanada.ca/wp-content/uploads/2018/07/UFH-LMWH-Fonda-2018June15.pdf</string>
+					<key>Text</key>
+					<string>Fondaparinux PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Venous Thromboprophylaxis (Deep Vein Thrombosis, Pulmonary Embolism)</string>
+		<key>Medication Name</key>
+		<string>Fondaparinux</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>2.5 mg subcutaneous injection once daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array/>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Fraxiparine</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://thrombosiscanada.ca/wp-content/uploads/2018/07/UFH-LMWH-Fonda-2018June15.pdf</string>
+					<key>Text</key>
+					<string>Nadroparin PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Venous Thromboprophylaxis (Deep Vein Thrombosis, Pulmonary Embolism)</string>
+		<key>Medication Name</key>
+		<string>Nadroparin</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>2850 units subcutaneous injection once daily (general surgery)</string>
+			<string>38 units/kg subcutaneous injection once daily (orthopedic surgery)</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array/>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string>Innohep</string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://thrombosiscanada.ca/wp-content/uploads/2018/07/UFH-LMWH-Fonda-2018June15.pdf</string>
+					<key>Text</key>
+					<string>Tinzaparin PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Venous Thromboprophylaxis (Deep Vein Thrombosis, Pulmonary Embolism)</string>
+		<key>Medication Name</key>
+		<string>Tinzaparin</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>4,500 units subcutaneous injection once daily</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array/>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>Brand Name(s)</key>
+		<string></string>
+		<key>Contributor(s)</key>
+		<array>
+			<string>Kevin John Um</string>
+			<string>Victor Alex Chu</string>
+		</array>
+		<key>Guideline (with appropriate links)</key>
+		<array>
+			<array>
+				<string>thrombosis_canada.png</string>
+				<string>https://thrombosiscanada.ca/clinicalguides/#</string>
+			</array>
+			<array>
+				<dict>
+					<key>Link</key>
+					<string>http://thrombosiscanada.ca/wp-content/uploads/2018/07/UFH-LMWH-Fonda-2018June15.pdf</string>
+					<key>Text</key>
+					<string>Heparin PDF</string>
+				</dict>
+			</array>
+		</array>
+		<key>Indication</key>
+		<string>Venous Thromboprophylaxis (Deep Vein Thrombosis, Pulmonary Embolism)</string>
+		<key>Medication Name</key>
+		<string>Unfractionated Heparin</string>
+		<key>Note(s)</key>
+		<array/>
+		<key>Prescription Guide</key>
+		<array>
+			<string>5,000 units subcutaneous injection every 8–12 hours</string>
+		</array>
+		<key>Relevant Evidence (i.e. studies, trials)</key>
+		<array/>
+		<key>Updated Date</key>
+		<date>2019-06-10T00:00:00Z</date>
+	</dict>
+</array>
+</plist>
