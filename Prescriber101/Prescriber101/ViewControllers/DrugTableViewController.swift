@@ -175,7 +175,6 @@ class DrugTableViewController: UITableViewController {
                 }
                 updatedDate = dateInfo
             default:
-                print(information)
                 fatalError("unexpected information from plist: \(information)")
             }
         }
@@ -241,7 +240,6 @@ class DrugTableViewController: UITableViewController {
                 } else {
                     drug = drugs[indexPath.row]
                 }
-                print(drug)
                 let controller = segue.destination as! DrugViewController
                 controller.selectedDrug = drug
             } else {
